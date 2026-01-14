@@ -16,7 +16,7 @@
   },
   "about": {
     "title": "Professional Profile",
-    "description": "Software engineering engineer with over 3 years of experience in development, maintenance and deployment of computer applications for institutional projects. Accustomed to working in structured environments, focused on quality, security and collaboration. Interested in technical and administrative positions."
+    "description": "Software engineering engineer with over 3 years of experience in development, maintenance and deployment of computer applications for institutional and commercial projects. I have worked on web and desktop applications, using Java, Spring Boot, Angular, Python and Django, as well as MySQL and PostgreSQL databases.\n\nMy experiences include frontend development, test automation, setting up CI/CD pipelines with Jenkins, and performing performance and manual testing. Accustomed to working in structured environments, I am focused on quality, security and collaboration.\n\nI wish to continue my career in a stimulating and international environment, deepen my technical skills and contribute to ambitious projects by combining technical expertise and methodological rigor."
   },
   "experience": {
     "title": "Professional Experience",
@@ -38,9 +38,9 @@
         "company": "B&G Digital",
         "period": "September 2022 - January 2023",
         "missions": [
-          "Write automated test algorithms and generate QA test reports",
-          "Frontend development of a tourism management application (hotel, restaurant, discovery, events)",
-          "Manual testing, performance testing"
+          "Write automated test algorithms and generate QA test reports. [Tools: Cucumber, Selenium, Appium, JMeter, Jenkins]",
+          "Frontend development of a tourism management application (hotel, restaurant, discovery, events). [Tools: Angular]",
+          "Manual testing, performance testing. [Tools: Selenium, Appium, JMeter, Cucumber, Jenkins]"
         ]
       },
       {
@@ -48,9 +48,9 @@
         "company": "B&G Digital",
         "period": "March 2022 – August 2022",
         "missions": [
-          "Write automated test algorithms and generate QA test reports",
-          "Create a delivery pipeline including automated tests and send test reports to developers",
-          "CI/CD automation using Jenkins"
+          "Write automated test algorithms and generate QA test reports. [Tools: Cucumber, Selenium, Appium, JMeter, Jenkins]",
+          "Create a delivery pipeline including automated tests and send test reports to developers [Tools: Cucumber, Jenkins]",
+          "CI/CD automation using Jenkins [Tools: Jenkins]"
         ]
       }
     ]
@@ -158,6 +158,12 @@
           "description": "Digital platform consisting of a web application, a mobile application and an integrated marketplace. The platform provides real-time visibility of warehouse activities (stock, invoice, sales, logs, etc.) and integrates artificial intelligence features for stock-out forecasting, inventory level optimization and sales forecasting.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
           "role": "Design, development and deployment"
+        },
+        {
+          "name": "ClassPass – Service Booking Platform",
+          "description": "Web application allowing clients to book services (hairdressing, beauty, massage, etc.) from partner providers. Providers have a dashboard to manage their availability, services, bookings and revenue.",
+          "technologies": "Angular, Spring Boot, MySQL, Git",
+          "role": "Architecture design, frontend and backend development, implementation of main features and testing"
         }
       ]
     },

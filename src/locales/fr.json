@@ -158,6 +158,11 @@
           "description": "Plateforme digitale composée d'une application web, d'une application mobile et d'un marketplace intégré. La plateforme permet une visibilité en temps réel des activités d'entrepôt (stock, facture, vente, logs, etc...) et intègre des fonctionnalités d'intelligence artificielle pour la prévision des ruptures de stock, l'optimisation des niveaux d'inventaire et la prévision des ventes.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
           "role": "Conception, développement et déploiement"
+        }, {
+          "name": "ClassPass – Plateforme de réservation de services",
+          "description": "Application web permettant aux clients de réserver des services (coiffure, esthétique, massage, etc.) auprès de prestataires partenaires. Les prestataires disposent d’un tableau de bord pour gérer leurs disponibilités, services, réservations et revenus.",
+          "technologies": "Angular, Spring Boot, MySQL, Git",
+          "role": "Conception de l’architecture, développement frontend et backend, implémentation des fonctionnalités principales et tests"
         }
       ]
     },

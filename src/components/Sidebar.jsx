@@ -79,6 +79,16 @@ function Sidebar() {
             </li>
             <li>
               <a 
+                href="#projects" 
+                onClick={(e) => { e.preventDefault(); scrollToSection('projects') }}
+                className={activeSection === 'projects' ? 'active' : ''}
+              >
+                <span className="nav-line"></span>
+                <span className="nav-text">{t('nav.projects')}</span>
+              </a>
+            </li>
+            <li>
+              <a 
                 href="#education" 
                 onClick={(e) => { e.preventDefault(); scrollToSection('education') }}
                 className={activeSection === 'education' ? 'active' : ''}
@@ -97,16 +107,7 @@ function Sidebar() {
                 <span className="nav-text">{t('nav.skills')}</span>
               </a>
             </li>
-            <li>
-              <a 
-                href="#projects" 
-                onClick={(e) => { e.preventDefault(); scrollToSection('projects') }}
-                className={activeSection === 'projects' ? 'active' : ''}
-              >
-                <span className="nav-line"></span>
-                <span className="nav-text">{t('nav.projects')}</span>
-              </a>
-            </li>
+            
             
           </ul>
         </nav>
@@ -121,6 +122,14 @@ function Sidebar() {
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
               <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </a>
+
+          <a href="https://www.linkedin.com/in/blandine-balde-00b24a1a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <line x1="4" y1="22" x2="4" y2="9"/>
             </svg>
           </a>
         </div>
