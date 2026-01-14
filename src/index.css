@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Palette minimaliste inspirée de Brittany Chiang */
+  --primary-color: #64FFDA; /* Teal accent */
+  --primary-dark: #52E3C2;
+  --secondary-color: #8892B0; /* Slate */
+  --accent-color: #64FFDA; /* Teal */
+  
+  /* Couleurs de fond - Dark theme */
+  --bg-color: #0A192F; /* Navy blue */
+  --bg-light: #112240; /* Lighter navy */
+  --bg-lighter: #233554; /* Even lighter */
+  --bg-section: #0F1B2E;
+  
+  /* Couleurs de texte */
+  --text-color: #CCD6F6; /* Light blue */
+  --text-light: #8892B0; /* Slate */
+  --text-lighter: #64748B;
+  --text-white: #FFFFFF;
+  
+  /* Autres */
+  --border-color: #233554;
+  --shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+  --shadow-lg: 0 20px 30px -15px rgba(2, 12, 27, 0.7);
+  --shadow-hover: 0 5px 15px rgba(100, 255, 218, 0.1);
+  
+  /* Transitions */
+  --transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  --transition-fast: all 0.15s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animations minimalistes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  line-height: 1.1;
+  color: var(--text-white);
+}
+
+code {
+  font-family: 'Fira Code', 'Source Code Pro', 'Consolas', 'Courier New', monospace;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+  
+  body {
+    font-size: 15px;
+  }
+}

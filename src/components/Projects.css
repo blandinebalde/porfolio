@@ -1,0 +1,140 @@
+.projects-section {
+  margin-bottom: 3rem;
+}
+
+.projects-section:last-child {
+  margin-bottom: 0;
+}
+
+.projects-subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-white);
+  margin-bottom: 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 100%;
+  margin: 0;
+}
+
+.project-item {
+  background: var(--bg-light);
+  padding: 2rem;
+  border-radius: 4px;
+  transition: var(--transition);
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.project-item:hover {
+  background: var(--bg-lighter);
+  border-color: var(--primary-color);
+  transform: translateX(5px);
+}
+
+.personal-project {
+  border-left: 2px solid var(--primary-color);
+}
+
+.academic-project {
+  border-left: 2px solid var(--secondary-color);
+}
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.project-name {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-white);
+  font-family: 'Inter', sans-serif;
+}
+
+.project-name a {
+  color: var(--text-white);
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.project-name a:hover {
+  color: var(--primary-color);
+}
+
+.project-badge {
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  white-space: nowrap;
+  font-family: 'Inter', monospace;
+  background: rgba(100, 255, 218, 0.1);
+  border: 1px solid var(--primary-color);
+}
+
+.personal-badge {
+  background: rgba(100, 255, 218, 0.1);
+  border-color: var(--primary-color);
+}
+
+.academic-badge {
+  background: rgba(136, 146, 176, 0.1);
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.project-description {
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  font-size: 0.85rem;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.project-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.project-detail-label {
+  font-weight: 500;
+  color: var(--text-white);
+  font-family: 'Inter', sans-serif;
+}
+
+.project-detail-value {
+  color: var(--text-light);
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .project-item {
+    padding: 1.5rem;
+  }
+  
+  .project-name {
+    font-size: 1.125rem;
+  }
+  
+  .project-header {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,145 @@
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 100%;
+  margin: 0;
+}
+
+.experience-item {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2.5rem;
+  background: transparent;
+  transition: var(--transition);
+  align-items: start;
+  padding: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.experience-item:hover {
+  background: rgba(100, 255, 218, 0.03);
+  transform: translateX(5px);
+}
+
+.experience-date {
+  color: var(--text-light);
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-family: 'Inter', monospace;
+  text-align: right;
+  padding-top: 0.25rem;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  opacity: 0.8;
+  line-height: 1.5;
+  transition: var(--transition);
+}
+
+.experience-item:hover .experience-date {
+  opacity: 1;
+  color: var(--primary-color);
+}
+
+.experience-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.experience-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  line-height: 1.2;
+  transition: var(--transition);
+}
+
+.experience-item:hover .experience-title {
+  color: var(--primary-color);
+  text-shadow: 0 0 8px rgba(100, 255, 218, 0.3);
+}
+
+.experience-company {
+  font-size: 1rem;
+  color: var(--primary-color);
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  line-height: 1.2;
+  transition: var(--transition);
+}
+
+.experience-item:hover .experience-company {
+  color: var(--primary-color);
+  opacity: 0.9;
+}
+
+.experience-description {
+  color: var(--text-light);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.experience-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.tech-tag {
+  background: rgba(100, 255, 218, 0.1);
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  border: 1px solid rgba(100, 255, 218, 0.2);
+  transition: var(--transition);
+}
+
+.experience-item:hover .tech-tag {
+  background: rgba(100, 255, 218, 0.15);
+  border-color: rgba(100, 255, 218, 0.4);
+  transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+  .experience-item {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+  
+  .experience-date {
+    text-align: left;
+    font-size: 0.7rem;
+  }
+  
+  .experience-title {
+    font-size: 0.95rem;
+  }
+  
+  .experience-company {
+    font-size: 0.95rem;
+  }
+  
+  .experience-description {
+    font-size: 0.85rem;
+  }
+}

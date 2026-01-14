@@ -1,0 +1,16 @@
+.about {
+  background: transparent;
+}
+
+.about-description {
+  font-size: 15px;
+  color: var(--text-light);
+  line-height: 2.5;
+  max-width: 100%;
+  margin: 0;
+  text-align: left;
+  padding-top: 50px;
+  font-family: 'Inter', sans-serif;
+ 
+  white-space: pre-line;
+}

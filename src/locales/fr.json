@@ -1,0 +1,242 @@
+{
+  "header": {
+    "name": "Néné Marcelle Blandine BALDE",
+    "title": "Ingénieur Génie Logiciel",
+    "location": "Rufisque, Dakar, Sénégal",
+    "tagline": "Je développe des expériences digitales accessibles et pixel-perfect pour le web."
+  },
+  "nav": {
+    "about": "À PROPOS",
+    "experience": "EXPÉRIENCE",
+    "education": "FORMATION",
+    "skills": "COMPÉTENCES",
+    "projects": "PROJETS",
+    "certifications": "CERTIFICATIONS",
+    "contact": "CONTACT"
+  },
+  "about": {
+    "title": "Profil professionnel",
+    "description": "Ingénieure en génie logiciel avec plus de 3 ans d'expérience dans le développement, la maintenance et le déploiement d'applications informatiques pour des projets institutionnels et commerciaux. J'ai travaillé sur des applications web et desktop, utilisant Java, Spring Boot, Angular, Python et Django, ainsi que des bases de données MySQL et PostgreSQL.\n\nMes expériences incluent le développement frontend, l'automatisation des tests, la mise en place de pipelines CI/CD avec Jenkins et la réalisation de tests de performance et manuels. Habituée à travailler dans des environnements structurés, je suis orientée qualité, sécurité et collaboration.\n\nJe souhaite poursuivre mon parcours dans un environnement stimulant et international, approfondir mes compétences techniques et contribuer à des projets ambitieux en combinant expertise technique et rigueur méthodologique."
+  },
+  "experience": {
+    "title": "Expériences professionnelles",
+    "items": [
+      {
+        "title": "Ingénieur génie logiciel",
+        "company": "Synapsys",
+        "period": "Février 2023 – Aujourd'hui",
+        "missions": [
+          "Développement d'une application pour la gestion de la collecte des taxes touristiques avec jhipster [Outils : angular, springboot, postgres]",
+          "Maintenance corrective d'une application pour la gestion de la couverture santé universelle (SEN-CSU), pour la gestion des assurés et des organismes de santé. [Outils : angular, springboot, mysql]",
+          "Développement d'une application desktop en version offline pour la gestion de la couverture santé universelle (SEN-CSU). Synchronisation avec les données online [Outils : electron js, sqlite]",
+          "Développement d'une application pour le contrôle d'accès dans une entreprise [Outils : php, angular]",
+          "Développement d'une application pour le suivi des enrôlements avec SYLAB (application mobile et desktop) : affichage des données enrôlées, création d'utilisateur, création de structure, configuration des méthodes d'enrôlement... [Outils : Springboot, angular, mysql]"
+        ]
+      },
+      {
+        "title": "Front-End Developer | Software Engineer",
+        "company": "B&G Digital",
+        "period": "Septembre 2022 - Janvier 2023",
+        "missions": [
+          "Écrire des algorithmes de tests automatisés et générer un rapport de tests QA. [Outils : Cucumber , Selenium , appium , jmeter , jenkins]",
+          "Développement frontend d'une application de gestion touristique (hôtel, restaurant, découverte, événement). [Outils : angular]",
+          "Tests manuels, tests de performances. [Outils : selenium, appium, jmeter , cucumber , jenkins]"
+        ]
+      },
+      {
+        "title": "Software Engineer | Testeur",
+        "company": "B&G Digital",
+        "period": "Mars 2022 – Août 2022",
+        "missions": [
+          "Écrire des algorithmes de tests automatisés et générer un rapport de tests QA. [Outils : Cucumber , Selenium , appium , jmeter , jenkins]",
+          "Créer un pipeline de livraison incluant les tests automatisés et envoyer le rapport de tests aux développeurs [Outils : cucumber, jenkins]",
+          "Automatisation du CI/CD en utilisant Jenkins [Outils : jenkins]"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Diplômes",
+    "items": [
+      {
+        "degree": "Master 2 en génie logiciel et système d'information",
+        "school": "Ecole supérieure polytechnique de Dakar (ESP)",
+        "period": "2022"
+      },
+      {
+        "degree": "Licence Génie logiciel",
+        "school": "Institut supérieur d'informatique (ISI)",
+        "period": "2018"
+      },
+      {
+        "degree": "BTS informatique de gestion",
+        "school": "Institut supérieur d'informatique (ISI)",
+        "period": "2017"
+      },
+      {
+        "degree": "Baccalauréat Scientifique",
+        "school": "Lycée Abdoulaye SADJI",
+        "period": "2015"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences techniques",
+    "categories": {
+      "scripting": "Langage de Scripting",
+      "programming": "Langage de programmation",
+      "databases": "Bases de données",
+      "devops": "Outils DEVOPS",
+      "testing": "Outils de test",
+      "environment": "Environnement",
+      "architecture": "Architecture logicielle",
+      "desktop": "Applications desktop",
+      "backend": "Développement backend"
+    },
+    "items": {
+      "python": "Python",
+      "java": "Java",
+      "javascript": "JavaScript",
+      "html": "HTML",
+      "angular": "Angular",
+      "css": "CSS",
+      "reactjs": "ReactJs",
+      "mysql": "MySQL",
+      "postgresql": "PostgreSQL",
+      "sqlite": "SQLite",
+      "github": "GitHub",
+      "jenkins": "Jenkins",
+      "docker": "Docker",
+      "git": "Git",
+      "gitlab": "GitLab",
+      "cucumber": "Cucumber",
+      "selenium": "Selenium",
+      "appium": "Appium",
+      "jmeter": "JMeter",
+      "windows": "Windows",
+      "linux": "Linux",
+      "mvc": "MVC",
+      "rest": "Architecture REST",
+      "microservices": "Microservices (bases)",
+      "electron": "Electron.js",
+      "springboot": "Spring Boot",
+      "php": "PHP"
+    },
+    "soft": {
+      "title": "Autres compétences",
+      "items": [
+        "Capacité à travailler sous pression",
+        "Sens de l'écoute et disponibilité",
+        "Réactivité et gestion des priorités",
+        "Rigueur et sens des responsabilités",
+        "Collaboration et esprit d'équipe",
+        "Travail en équipe pluridisciplinaire",
+        "Veille technologique"
+      ]
+    },
+    "transversal": {
+      "title": "Compétences techniques transversales",
+      "items": [
+        "Support technique et maintenance applicative",
+        "Analyse et conception de plateformes complexes",
+        "Déploiement d'applications",
+        "Sécurité applicative (bonnes pratiques)",
+        "Modélisation de bases de données (MERISE, UML)",
+        "Rédaction de requêtes SQL avancées",
+        "Rédaction de documentation technique (LaTeX)",
+        "Notions cloud : AWS, Google Cloud"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "personal": {
+      "title": "Projets personnels",
+      "items": [
+        {
+          "name": "Plateforme de gestion multi-entrepôts",
+          "description": "Plateforme digitale composée d'une application web, d'une application mobile et d'un marketplace intégré. La plateforme permet une visibilité en temps réel des activités d'entrepôt (stock, facture, vente, logs, etc...) et intègre des fonctionnalités d'intelligence artificielle pour la prévision des ruptures de stock, l'optimisation des niveaux d'inventaire et la prévision des ventes.",
+          "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
+          "role": "Conception, développement et déploiement"
+        }
+      ]
+    },
+    "academic": {
+      "title": "Projets académiques",
+      "items": [
+        {
+          "name": "Management de la qualité logicielle",
+          "type": "Mémoire de fin d'études – Master 2",
+          "description": "Automatisation des tests et amélioration de la qualité du processus de livraison logicielle",
+          "technologies": "Java, Selenium, Cucumber, Jenkins, JMeter",
+          "role": "Mise en place de tests automatisés (fonctionnels, performances, etc..) et d'un pipeline CI/CD fonctionnel"
+        }
+      ]
+    }
+  },
+  "activities": {
+    "title": "Activités extra-professionnelles",
+    "items": [
+      {
+        "name": "Membre des EEDS",
+        "description": "Eclaireuses et Eclaireurs Du Sénégal",
+        "type": "Engagement associatif"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Formations (Cursus)",
+    "items": [
+      {
+        "name": "ETL using python: from MySQL to big query",
+        "provider": "Udemy",
+        "period": "2023",
+        "document": "Certificat de formation"
+      },
+      {
+        "name": "LPI Linux Essentials (010-160) Complete Course and Exams",
+        "provider": "Formation en ligne",
+        "period": "2023",
+        "document": "Certificat de formation"
+      },
+      {
+        "name": "Google Analytics pour les débutants",
+        "provider": "Google Analytics Academy",
+        "period": "2023",
+        "document": "Certificat de formation"
+      },
+      {
+        "name": "Complete Agile Scrum Master Certification Training",
+        "provider": "Udemy",
+        "period": "2023",
+        "document": "Certificat de formation"
+      },
+      {
+        "name": "Huawei HCIA Cloud Computing",
+        "provider": "HUAWEI",
+        "period": "2022",
+        "document": "Score : 71%"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Compétences linguistiques",
+    "items": [
+      {
+        "language": "Français",
+        "level": "Lu, écrit et parlé couramment"
+      },
+      {
+        "language": "Anglais",
+        "level": "Bonne compréhension écrite, communication professionnelle de base"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Téléphone",
+    "email": "Email",
+    "github": "GitHub",
+    "location": "Localisation"
+  }
+}

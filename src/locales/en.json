@@ -1,0 +1,242 @@
+{
+  "header": {
+    "name": "Néné Marcelle Blandine BALDE",
+    "title": "Software Engineering Engineer",
+    "location": "Rufisque, Dakar, Senegal",
+    "tagline": "I build accessible, pixel-perfect digital experiences for the web."
+  },
+  "nav": {
+    "about": "ABOUT",
+    "experience": "EXPERIENCE",
+    "education": "EDUCATION",
+    "skills": "SKILLS",
+    "projects": "PROJECTS",
+    "certifications": "CERTIFICATIONS",
+    "contact": "CONTACT"
+  },
+  "about": {
+    "title": "Professional Profile",
+    "description": "Software engineering engineer with over 3 years of experience in development, maintenance and deployment of computer applications for institutional projects. Accustomed to working in structured environments, focused on quality, security and collaboration. Interested in technical and administrative positions."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "title": "Software Engineering Engineer",
+        "company": "Synapsys",
+        "period": "February 2023 – Present",
+        "missions": [
+          "Development of an application for managing tourist tax collection with jhipster [Tools: angular, springboot, postgres]",
+          "Corrective maintenance of an application for managing universal health coverage (SEN-CSU), for managing insured persons and health organizations. [Tools: angular, springboot, mysql]",
+          "Development of an offline desktop application for managing universal health coverage (SEN-CSU). Synchronization with online data [Tools: electron js, sqlite]",
+          "Development of an application for access control in a company [Tools: php, angular]",
+          "Development of an application for tracking enrollments with SYLAB (mobile and desktop application): display of enrolled data, user creation, structure creation, enrollment method configuration... [Tools: Springboot, angular, mysql]"
+        ]
+      },
+      {
+        "title": "Front-End Developer | Software Engineer",
+        "company": "B&G Digital",
+        "period": "September 2022 - January 2023",
+        "missions": [
+          "Write automated test algorithms and generate QA test reports",
+          "Frontend development of a tourism management application (hotel, restaurant, discovery, events)",
+          "Manual testing, performance testing"
+        ]
+      },
+      {
+        "title": "Software Engineer | Tester",
+        "company": "B&G Digital",
+        "period": "March 2022 – August 2022",
+        "missions": [
+          "Write automated test algorithms and generate QA test reports",
+          "Create a delivery pipeline including automated tests and send test reports to developers",
+          "CI/CD automation using Jenkins"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Master 2 in Software Engineering and Information Systems",
+        "school": "École Supérieure Polytechnique de Dakar (ESP)",
+        "period": "2022"
+      },
+      {
+        "degree": "Bachelor's in Software Engineering",
+        "school": "Institut Supérieur d'Informatique (ISI)",
+        "period": "2018"
+      },
+      {
+        "degree": "BTS in Business IT",
+        "school": "Institut Supérieur d'Informatique (ISI)",
+        "period": "2017"
+      },
+      {
+        "degree": "Scientific Baccalaureate",
+        "school": "Lycée Abdoulaye SADJI",
+        "period": "2015"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "categories": {
+      "scripting": "Scripting Languages",
+      "programming": "Programming Languages",
+      "databases": "Databases",
+      "devops": "DEVOPS Tools",
+      "testing": "Testing Tools",
+      "environment": "Environment",
+      "architecture": "Software Architecture",
+      "desktop": "Desktop Applications",
+      "backend": "Backend Development"
+    },
+    "items": {
+      "python": "Python",
+      "java": "Java",
+      "javascript": "JavaScript",
+      "html": "HTML",
+      "angular": "Angular",
+      "css": "CSS",
+      "reactjs": "ReactJs",
+      "mysql": "MySQL",
+      "postgresql": "PostgreSQL",
+      "sqlite": "SQLite",
+      "github": "GitHub",
+      "jenkins": "Jenkins",
+      "docker": "Docker",
+      "git": "Git",
+      "gitlab": "GitLab",
+      "cucumber": "Cucumber",
+      "selenium": "Selenium",
+      "appium": "Appium",
+      "jmeter": "JMeter",
+      "windows": "Windows",
+      "linux": "Linux",
+      "mvc": "MVC",
+      "rest": "REST Architecture",
+      "microservices": "Microservices (basics)",
+      "electron": "Electron.js",
+      "springboot": "Spring Boot",
+      "php": "PHP"
+    },
+    "soft": {
+      "title": "Other Skills",
+      "items": [
+        "Ability to work under pressure",
+        "Listening skills and availability",
+        "Reactivity and priority management",
+        "Rigor and sense of responsibility",
+        "Collaboration and team spirit",
+        "Multidisciplinary teamwork",
+        "Technology watch"
+      ]
+    },
+    "transversal": {
+      "title": "Transversal Technical Skills",
+      "items": [
+        "Technical support and application maintenance",
+        "Analysis and design of complex platforms",
+        "Application deployment",
+        "Application security (best practices)",
+        "Database modeling (MERISE, UML)",
+        "Advanced SQL query writing",
+        "Technical documentation writing (LaTeX)",
+        "Cloud knowledge: AWS, Google Cloud"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "personal": {
+      "title": "Personal Projects",
+      "items": [
+        {
+          "name": "Multi-warehouse Management Platform",
+          "description": "Digital platform consisting of a web application, a mobile application and an integrated marketplace. The platform provides real-time visibility of warehouse activities (stock, invoice, sales, logs, etc.) and integrates artificial intelligence features for stock-out forecasting, inventory level optimization and sales forecasting.",
+          "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
+          "role": "Design, development and deployment"
+        }
+      ]
+    },
+    "academic": {
+      "title": "Academic Projects",
+      "items": [
+        {
+          "name": "Software Quality Management",
+          "type": "Master 2 Final Thesis",
+          "description": "Test automation and improvement of software delivery process quality",
+          "technologies": "Java, Selenium, Cucumber, Jenkins, JMeter",
+          "role": "Implementation of automated tests (functional, performance, etc.) and a functional CI/CD pipeline"
+        }
+      ]
+    }
+  },
+  "activities": {
+    "title": "Extra-Professional Activities",
+    "items": [
+      {
+        "name": "Member of EEDS",
+        "description": "Scouts and Guides of Senegal",
+        "type": "Associative engagement"
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Training (Courses)",
+    "items": [
+      {
+        "name": "ETL using python: from MySQL to big query",
+        "provider": "Udemy",
+        "period": "2023",
+        "document": "Training Certificate"
+      },
+      {
+        "name": "LPI Linux Essentials (010-160) Complete Course and Exams",
+        "provider": "Online Training",
+        "period": "2023",
+        "document": "Training Certificate"
+      },
+      {
+        "name": "Google Analytics for Beginners",
+        "provider": "Google Analytics Academy",
+        "period": "2023",
+        "document": "Training Certificate"
+      },
+      {
+        "name": "Complete Agile Scrum Master Certification Training",
+        "provider": "Udemy",
+        "period": "2023",
+        "document": "Training Certificate"
+      },
+      {
+        "name": "Huawei HCIA Cloud Computing",
+        "provider": "HUAWEI",
+        "period": "2022",
+        "document": "Score: 71%"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Language Skills",
+    "items": [
+      {
+        "language": "French",
+        "level": "Read, written and spoken fluently"
+      },
+      {
+        "language": "English",
+        "level": "Good written comprehension, basic professional communication"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "github": "GitHub",
+    "location": "Location"
+  }
+}

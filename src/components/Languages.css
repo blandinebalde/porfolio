@@ -1,0 +1,38 @@
+.languages-list {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: 0;
+}
+
+.language-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+  background: transparent;
+  border: none;
+  min-width: auto;
+  transition: var(--transition);
+}
+
+.language-name {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-white);
+  font-family: 'Inter', sans-serif;
+}
+
+.language-level {
+  font-size: 0.8rem;
+  color: var(--text-light);
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .languages-list {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
