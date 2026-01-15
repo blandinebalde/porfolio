@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Néné Marcelle Blandine BALDE",
-    "title": "Ingénieur Génie Logiciel",
+    "title": "Ingénieur Génie Logiciel et systéme d'information",
     "location": "Rufisque, Dakar, Sénégal",
     "tagline": "Je développe des expériences digitales accessibles et pixel-perfect pour le web."
   },
@@ -22,7 +22,7 @@
     "title": "Expériences professionnelles",
     "items": [
       {
-        "title": "Ingénieur génie logiciel",
+        "title": "Ingénieur génie logiciel et systéme d'information",
         "company": "Synapsys",
         "period": "Février 2023 – Aujourd'hui",
         "missions": [
@@ -59,7 +59,7 @@
     "title": "Diplômes",
     "items": [
       {
-        "degree": "Master 2 en génie logiciel et système d'information",
+        "degree": "Master 2 en génie logiciel et systéme d'information ",
         "school": "Ecole supérieure polytechnique de Dakar (ESP)",
         "period": "2022"
       },

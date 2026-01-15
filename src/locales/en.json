@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "Néné Marcelle Blandine BALDE",
-    "title": "Software Engineering Engineer",
+    "title": "Software and Information System Engineer",
     "location": "Rufisque, Dakar, Senegal",
     "tagline": "I build accessible, pixel-perfect digital experiences for the web."
   },
@@ -22,7 +22,7 @@
     "title": "Professional Experience",
     "items": [
       {
-        "title": "Software Engineering Engineer",
+        "title": "Software and Information System Engineer",
         "company": "Synapsys",
         "period": "February 2023 – Present",
         "missions": [
@@ -59,7 +59,7 @@
     "title": "Education",
     "items": [
       {
-        "degree": "Master 2 in Software Engineering and Information Systems",
+        "degree": "Master 2 in Software and Information System Engineering",
         "school": "École Supérieure Polytechnique de Dakar (ESP)",
         "period": "2022"
       },
