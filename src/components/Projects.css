@@ -29,6 +29,7 @@
   transition: var(--transition);
   position: relative;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 
 .project-item:hover {

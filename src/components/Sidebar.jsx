@@ -1,10 +1,12 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import './Sidebar.css'
 
 function Sidebar() {
   const { t } = useTranslation()
   const [activeSection, setActiveSection] = useState('about')
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
+  const sidebarRef = useRef(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -30,6 +32,31 @@ function Sidebar() {
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
 
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      if (sidebarRef.current) {
+        const rect = sidebarRef.current.getBoundingClientRect()
+        const x = e.clientX - rect.left
+        const y = e.clientY - rect.top
+        setMousePosition({ x, y })
+      }
+    }
+
+    const handleMouseLeave = () => {
+      setMousePosition({ x: -1000, y: -1000 })
+    }
+
+    const sidebar = sidebarRef.current
+    if (sidebar) {
+      sidebar.addEventListener('mousemove', handleMouseMove)
+      sidebar.addEventListener('mouseleave', handleMouseLeave)
+      return () => {
+        sidebar.removeEventListener('mousemove', handleMouseMove)
+        sidebar.removeEventListener('mouseleave', handleMouseLeave)
+      }
+    }
+  }, [])
+
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
     if (element) {
@@ -47,8 +74,16 @@ function Sidebar() {
   }
 
   return (
-    <aside className="sidebar">
-      <div className="sidebar-content">
+    <aside className="sidebar" ref={sidebarRef}>
+      <div className="sidebar-wrapper">
+        <div 
+          className="cursor-light"
+          style={{
+            left: `${mousePosition.x}px`,
+            top: `${mousePosition.y}px`,
+          }}
+        ></div>
+        <div className="sidebar-content">
         <div className="sidebar-header">
           <h1 className="sidebar-name">{t('header.name')}</h1>
           <p className="sidebar-title">{t('header.title')}</p>
@@ -133,6 +168,7 @@ function Sidebar() {
             </svg>
           </a>
         </div>
+      </div>
       </div>
     </aside>
   )

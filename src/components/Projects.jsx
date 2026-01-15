@@ -1,20 +1,30 @@
 import { useTranslation } from 'react-i18next'
+import useScrollAnimation from '../hooks/useScrollAnimation'
 import './Projects.css'
 
 function Projects() {
   const { t } = useTranslation()
+  const [sectionRef, isSectionVisible] = useScrollAnimation({ threshold: 0.1 })
   const personalProjects = t('projects.personal.items', { returnObjects: true })
   const academicProjects = t('projects.academic.items', { returnObjects: true })
 
   return (
-    <section id="projects" className="section projects">
-      <h2 className="section-title">{t('projects.title')}</h2>
+    <section id="projects" className="section projects" ref={sectionRef}>
+      <h2 className={`section-title ${isSectionVisible ? 'fade-in-up' : 'animate-on-scroll'}`}>
+        {t('projects.title')}
+      </h2>
         
         <div className="projects-section">
-          <h3 className="projects-subtitle">{t('projects.personal.title')}</h3>
+          <h3 className={`projects-subtitle ${isSectionVisible ? 'fade-in-up' : 'animate-on-scroll'}`}>
+            {t('projects.personal.title')}
+          </h3>
           <div className="projects-list">
             {personalProjects.map((project, index) => (
-              <div key={index} className="project-item personal-project">
+              <div 
+                key={index} 
+                className={`project-item personal-project ${isSectionVisible ? 'fade-in-scale stagger-item' : 'animate-on-scroll'}`}
+                style={{ animationDelay: `${index * 0.15}s` }}
+              >
                 <div className="project-header">
                   <h3 className="project-name">{project.name}</h3>
                   <span className="project-badge personal-badge">Projet Personnel</span>
@@ -36,10 +46,16 @@ function Projects() {
         </div>
 
         <div className="projects-section">
-          <h3 className="projects-subtitle">{t('projects.academic.title')}</h3>
+          <h3 className={`projects-subtitle ${isSectionVisible ? 'fade-in-up' : 'animate-on-scroll'}`}>
+            {t('projects.academic.title')}
+          </h3>
           <div className="projects-list">
             {academicProjects.map((project, index) => (
-              <div key={index} className="project-item academic-project">
+              <div 
+                key={index} 
+                className={`project-item academic-project ${isSectionVisible ? 'fade-in-scale stagger-item' : 'animate-on-scroll'}`}
+                style={{ animationDelay: `${(personalProjects.length * 0.15) + (index * 0.15)}s` }}
+              >
                 <div className="project-header">
                   <h3 className="project-name">{project.name}</h3>
                   {project.type && (

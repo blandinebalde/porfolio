@@ -1,8 +1,10 @@
 import { useTranslation } from 'react-i18next'
+import useScrollAnimation from '../hooks/useScrollAnimation'
 import './Experience.css'
 
 function Experience() {
   const { t } = useTranslation()
+  const [sectionRef, isSectionVisible] = useScrollAnimation({ threshold: 0.1 })
 
   // Extract technologies from missions
   const extractTechnologies = (missions) => {
@@ -40,15 +42,21 @@ function Experience() {
   }
 
   return (
-    <section id="experience" className="section experience">
-      <h2 className="section-title">{t('experience.title')}</h2>
+    <section id="experience" className="section experience" ref={sectionRef}>
+      <h2 className={`section-title ${isSectionVisible ? 'fade-in-up' : 'animate-on-scroll'}`}>
+        {t('experience.title')}
+      </h2>
       <div className="experience-list">
         {t('experience.items', { returnObjects: true }).map((item, index) => {
           const technologies = extractTechnologies(item.missions)
           const description = getDescription(item.missions)
           
           return (
-            <div key={index} className="experience-item">
+            <div 
+              key={index} 
+              className={`experience-item ${isSectionVisible ? 'fade-in-scale stagger-item' : 'animate-on-scroll'}`}
+              style={{ animationDelay: `${index * 0.1}s` }}
+            >
               <div className="experience-date">{formatPeriod(item.period)}</div>
               <div className="experience-content">
                 <div className="experience-header">
@@ -59,7 +67,13 @@ function Experience() {
                 {technologies.length > 0 && (
                   <div className="experience-tech">
                     {technologies.map((tech, idx) => (
-                      <span key={idx} className="tech-tag">{tech}</span>
+                      <span 
+                        key={idx} 
+                        className="tech-tag"
+                        style={{ animationDelay: `${(index * 0.1) + (idx * 0.05)}s` }}
+                      >
+                        {tech}
+                      </span>
                     ))}
                   </div>
                 )}

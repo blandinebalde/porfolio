@@ -13,6 +13,7 @@
   border: 1px solid var(--bg-lighter);
   transition: var(--transition);
   position: relative;
+  cursor: pointer;
 }
 
 .activity-item:hover {
