@@ -160,7 +160,7 @@
           "role": "Design, development and deployment"
         },
         {
-          "name": "ClassPass – Service Booking Platform",
+          "name": "FlexiFit – Service Booking Platform",
           "description": "Web application allowing clients to book services (hairdressing, beauty, massage, etc.) from partner providers. Providers have a dashboard to manage their availability, services, bookings and revenue.",
           "technologies": "Angular, Spring Boot, MySQL, Git",
           "role": "Architecture design, frontend and backend development, implementation of main features and testing"

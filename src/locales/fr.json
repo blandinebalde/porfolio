@@ -159,7 +159,7 @@
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
           "role": "Conception, développement et déploiement"
         }, {
-          "name": "ClassPass – Plateforme de réservation de services",
+          "name": "FlexiFit – Plateforme de réservation de services",
           "description": "Application web permettant aux clients de réserver des services (coiffure, esthétique, massage, etc.) auprès de prestataires partenaires. Les prestataires disposent d’un tableau de bord pour gérer leurs disponibilités, services, réservations et revenus.",
           "technologies": "Angular, Spring Boot, MySQL, Git",
           "role": "Conception de l’architecture, développement frontend et backend, implémentation des fonctionnalités principales et tests"
