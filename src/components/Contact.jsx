@@ -28,13 +28,7 @@ function Contact() {
             github.com/blandinebalde
           </a>
         </div>
-        <div 
-          className={`contact-item ${isSectionVisible ? 'fade-in-scale stagger-item' : 'animate-on-scroll'}`}
-          style={{ animationDelay: '0.3s' }}
-        >
-          <span className="contact-label">{t('contact.location')}:</span>
-          <span className="contact-value">Rufisque, Dakar, Sénégal</span>
-        </div>
+        
       </div>
     </section>
   )
