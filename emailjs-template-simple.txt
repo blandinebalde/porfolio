@@ -1,0 +1,173 @@
+═══════════════════════════════════════════════════════
+  TEMPLATE EMAILJS - À COPIER DIRECTEMENT
+═══════════════════════════════════════════════════════
+
+ÉTAPE 1 : Dans EmailJS, créez un nouveau template
+ÉTAPE 2 : Copiez le contenu ci-dessous dans le champ "Content"
+ÉTAPE 3 : Copiez le sujet dans le champ "Subject"
+
+═══════════════════════════════════════════════════════
+SUJET (Subject) :
+═══════════════════════════════════════════════════════
+
+Nouveau message depuis votre portfolio - {{subject}}
+
+═══════════════════════════════════════════════════════
+CONTENU (Content) - Version HTML :
+═══════════════════════════════════════════════════════
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+    }
+    .container {
+      background-color: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .header {
+      background: linear-gradient(135deg, #0A192F 0%, #112240 100%);
+      color: #64FFDA;
+      padding: 25px;
+      text-align: center;
+    }
+    .header h2 {
+      margin: 0;
+      font-size: 24px;
+    }
+    .content {
+      padding: 30px;
+    }
+    .field {
+      margin-bottom: 25px;
+    }
+    .label {
+      font-weight: 600;
+      color: #0A192F;
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .value {
+      color: #333;
+      padding: 12px;
+      background-color: #f9f9f9;
+      border-left: 4px solid #64FFDA;
+      padding-left: 15px;
+      border-radius: 4px;
+      font-size: 15px;
+    }
+    .message-box {
+      background-color: #f9f9f9;
+      padding: 15px;
+      border-left: 4px solid #64FFDA;
+      margin-top: 10px;
+      white-space: pre-wrap;
+      border-radius: 4px;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 2px solid #f0f0f0;
+      color: #666;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>📧 Nouveau message depuis votre portfolio</h2>
+    </div>
+    
+    <div class="content">
+      <div class="field">
+        <span class="label">👤 Nom</span>
+        <div class="value">{{from_name}}</div>
+      </div>
+      
+      <div class="field">
+        <span class="label">📧 Email</span>
+        <div class="value">{{from_email}}</div>
+      </div>
+      
+      <div class="field">
+        <span class="label">📝 Sujet</span>
+        <div class="value">{{subject}}</div>
+      </div>
+      
+      <div class="field">
+        <span class="label">💬 Message</span>
+        <div class="message-box">{{message}}</div>
+      </div>
+    </div>
+    
+    <div class="footer">
+      <p>Ce message a été envoyé depuis le formulaire de contact de votre portfolio.</p>
+    </div>
+  </div>
+</body>
+</html>
+
+═══════════════════════════════════════════════════════
+CONTENU (Content) - Version Texte Simple (Alternative) :
+═══════════════════════════════════════════════════════
+
+NOUVEAU MESSAGE DEPUIS VOTRE PORTFOLIO
+═══════════════════════════════════════════════════════
+
+👤 Nom : {{from_name}}
+
+📧 Email : {{from_email}}
+
+📝 Sujet : {{subject}}
+
+💬 Message :
+───────────────────────────────────────────────────────
+{{message}}
+───────────────────────────────────────────────────────
+
+═══════════════════════════════════════════════════════
+Ce message a été envoyé depuis le formulaire de contact 
+de votre portfolio.
+═══════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════
+VARIABLES UTILISÉES :
+═══════════════════════════════════════════════════════
+
+{{from_name}}    → Nom de l'expéditeur
+{{from_email}}   → Email de l'expéditeur
+{{subject}}      → Sujet du message
+{{message}}      → Message complet
+
+═══════════════════════════════════════════════════════
+INSTRUCTIONS :
+═══════════════════════════════════════════════════════
+
+1. Connectez-vous à https://www.emailjs.com/
+2. Allez dans "Email Templates" → "Create New Template"
+3. Donnez un nom : "Contact Portfolio"
+4. Dans "Subject", copiez : Nouveau message depuis votre portfolio - {{subject}}
+5. Dans "Content", copiez la version HTML ci-dessus (ou la version texte)
+6. Cliquez sur "Save"
+7. Testez le template avec le bouton "Test"
+8. Copiez le Template ID et ajoutez-le dans votre fichier .env
+
+═══════════════════════════════════════════════════════

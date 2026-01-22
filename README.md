@@ -109,3 +109,39 @@ Le système de traduction utilise i18next. Pour ajouter une nouvelle langue :
 ### Déploiement automatique
 
 Le workflow GitHub Actions (`.github/workflows/deploy.yml`) se déclenche automatiquement à chaque push sur `master` ou `main`. Le site sera mis à jour automatiquement après chaque commit.
+
+## 📧 Configuration du formulaire de contact (EmailJS)
+
+Le formulaire de contact utilise EmailJS pour envoyer les emails directement à `blandinebalde@gmail.com`.
+
+### Configuration locale (développement)
+
+1. Créez un compte sur [EmailJS](https://www.emailjs.com/) (gratuit jusqu'à 200 emails/mois)
+2. Créez un service email (Gmail recommandé) et connectez votre compte
+3. Créez un template email avec ces variables :
+   - `{{from_name}}` - Nom de l'expéditeur
+   - `{{from_email}}` - Email de l'expéditeur
+   - `{{subject}}` - Sujet du message
+   - `{{message}}` - Message
+   - `{{to_email}}` - Email de destination (blandinebalde@gmail.com)
+4. Créez un fichier `.env` à la racine du projet :
+   ```env
+   VITE_EMAILJS_SERVICE_ID=votre_service_id
+   VITE_EMAILJS_TEMPLATE_ID=votre_template_id
+   VITE_EMAILJS_PUBLIC_KEY=votre_public_key
+   ```
+
+### Configuration pour GitHub Pages (production)
+
+Pour que le formulaire fonctionne sur GitHub Pages, vous devez configurer les secrets GitHub :
+
+1. Allez sur votre dépôt GitHub
+2. Cliquez sur **Settings** → **Secrets and variables** → **Actions**
+3. Cliquez sur **New repository secret** et ajoutez ces 3 secrets :
+   - `VITE_EMAILJS_SERVICE_ID` : Votre Service ID
+   - `VITE_EMAILJS_TEMPLATE_ID` : Votre Template ID
+   - `VITE_EMAILJS_PUBLIC_KEY` : Votre Public Key
+
+4. Après avoir ajouté les secrets, le workflow GitHub Actions utilisera automatiquement ces valeurs lors du build
+
+**Note** : Si EmailJS n'est pas configuré, le formulaire utilisera automatiquement un lien mailto comme solution de secours.

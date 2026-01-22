@@ -242,6 +242,19 @@
     "phone": "Téléphone",
     "email": "Email",
     "github": "GitHub",
-    "location": "Localisation"
+    "location": "Localisation",
+    "formTitle": "Envoyez-moi un message",
+    "formName": "Nom",
+    "formNamePlaceholder": "Votre nom",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "votre.email@exemple.com",
+    "formSubject": "Sujet",
+    "formSubjectPlaceholder": "Sujet de votre message",
+    "formMessage": "Message",
+    "formMessagePlaceholder": "Votre message...",
+    "formSubmit": "Envoyer",
+    "formSending": "Envoi en cours...",
+    "formSuccess": "Message envoyé avec succès !",
+    "formError": "Une erreur s'est produite. Veuillez réessayer."
   }
 }
