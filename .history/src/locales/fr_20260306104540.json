@@ -63,18 +63,17 @@
         "company": "Synapsys",
         "period": "Février 2023 – Aujourd'hui",
         "missions": [
-          "Développement d'une application pour la gestion de la collecte des taxes touristiques avec jhipster [Outils : Angular, Spring Boot, PostgreSQL]",
-          "Maintenance corrective d'une application pour la couverture santé universelle (SEN-CSU) : assurés et organismes de santé. [Outils : Angular, Spring Boot, MySQL]",
-          "Développement d'une application desktop offline pour la gestion SEN-CSU. Synchronisation avec les données en ligne [Outils : Electron, SQLite]",
-          "Développement d'une application de gestion et prise de commande des matériaux SYLAB avec interaction SYLAB pour la création des entités. [Outils : Laravel, PostgreSQL]. Déploiement en environnement de test (Jenkins, Docker, Linux).",
-          "Développement d'une application pour le contrôle d'accès en entreprise [Outils : PHP, Angular]",
-          "Développement d'une application de suivi des enrôlements SYLAB (mobile et desktop) : données enrôlées, création d'utilisateurs et de structures, configuration des méthodes d'enrôlement. [Outils : Spring Boot, Angular, MySQL]"
+          "Développement d'une application pour la gestion de la collecte des taxes touristiques avec jhipster [Outils : angular, springboot, postgres]",
+          "Maintenance corrective d'une application pour la gestion de la couverture santé universelle (SEN-CSU), pour la gestion des assurés et des organismes de santé. [Outils : angular, springboot, mysql]",
+          "Développement d'une application desktop en version offline pour la gestion de la couverture santé universelle (SEN-CSU). Synchronisation avec les données online [Outils : electron js, sqlite]",
+          "Développement d'une application pour le contrôle d'accès dans une entreprise [Outils : php, angular]",
+          "Développement d'une application pour le suivi des enrôlements avec SYLAB (application mobile et desktop) : affichage des données enrôlées, création d'utilisateur, création de structure, configuration des méthodes d'enrôlement... [Outils : Springboot, angular, mysql]"
         ]
       },
       {
         "title": "Front-End Developer | Software Engineer",
         "company": "B&G Digital",
-        "period": "Septembre 2022 – Janvier 2023",
+        "period": "Septembre 2022 - Janvier 2023",
         "missions": [
           "Écrire des algorithmes de tests automatisés et générer un rapport de tests QA. [Outils : Cucumber , Selenium , appium , jmeter , jenkins]",
           "Développement frontend d'une application de gestion touristique (hôtel, restaurant, découverte, événement). [Outils : angular]",
@@ -82,7 +81,7 @@
         ]
       },
       {
-        "title": "Software Engineer | Ingénieure Tests / DevOps",
+        "title": "Software Engineer | Testeur",
         "company": "B&G Digital",
         "period": "Mars 2022 – Août 2022",
         "missions": [

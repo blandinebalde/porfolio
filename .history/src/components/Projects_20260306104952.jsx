@@ -1,16 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import i18n from 'i18next'
 import './Projects.css'
-
-function getProjectItems(t, key) {
-  const items = t(key, { returnObjects: true })
-  if (Array.isArray(items) && items.length > 0) return items
-  const enBundle = i18n.getResourceBundle('en', 'translation')
-  const path = key.split('.') // e.g. 'projects.personal.items'
-  let en = enBundle
-  for (const p of path) { en = en?.[p] }
-  return Array.isArray(en) ? en : []
-}
 
 const GITHUB_URL = 'https://github.com/blandinebalde'
 
@@ -50,13 +39,13 @@ const projectVisuals = [
 
 export default function Projects() {
   const { t } = useTranslation()
-  const personalItems = getProjectItems(t, 'projects.personal.items')
-  const academicItems = getProjectItems(t, 'projects.academic.items')
+  const personalItems = t('projects.personal.items', { returnObjects: true })
+  const academicItems = t('projects.academic.items', { returnObjects: true })
   const personalTitle = t('projects.personal.title')
   const academicTitle = t('projects.academic.title')
 
-  const personal = personalItems.map((item) => ({ ...item, category: 'personal' }))
-  const academic = academicItems.map((item) => ({ ...item, category: 'academic' }))
+  const personal = Array.isArray(personalItems) ? personalItems.map((item) => ({ ...item, category: 'personal' })) : []
+  const academic = Array.isArray(academicItems) ? academicItems.map((item) => ({ ...item, category: 'academic' })) : []
   const allProjects = [...personal, ...academic]
 
   if (allProjects.length === 0) return null

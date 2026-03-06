@@ -63,12 +63,11 @@
         "company": "Synapsys",
         "period": "February 2023 – Present",
         "missions": [
-          "Development of an application for managing tourist tax collection with jhipster [Tools: Angular, Spring Boot, PostgreSQL]",
-          "Corrective maintenance of an application for universal health coverage (SEN-CSU): insured persons and health organizations. [Tools: Angular, Spring Boot, MySQL]",
-          "Development of an offline desktop application for SEN-CSU management. Synchronization with online data [Tools: Electron, SQLite]",
-          "Development of a materials management and order-taking application for SYLAB, with SYLAB integration for entity creation. [Tools: Laravel, PostgreSQL]. Deployment in test environment (Jenkins, Docker, Linux).",
-          "Development of an application for access control in a company [Tools: PHP, Angular]",
-          "Development of an application for tracking enrollments with SYLAB (mobile and desktop): enrolled data, user and structure creation, enrollment method configuration. [Tools: Spring Boot, Angular, MySQL]"
+          "Development of an application for managing tourist tax collection with jhipster [Tools: angular, springboot, postgres]",
+          "Corrective maintenance of an application for managing universal health coverage (SEN-CSU), for managing insured persons and health organizations. [Tools: angular, springboot, mysql]",
+          "Development of an offline desktop application for managing universal health coverage (SEN-CSU). Synchronization with online data [Tools: electron js, sqlite]",
+          "Development of an application for access control in a company [Tools: php, angular]",
+          "Development of an application for tracking enrollments with SYLAB (mobile and desktop application): display of enrolled data, user creation, structure creation, enrollment method configuration... [Tools: Springboot, angular, mysql]"
         ]
       },
       {

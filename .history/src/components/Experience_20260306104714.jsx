@@ -1,20 +1,12 @@
 import { useTranslation } from 'react-i18next'
-import i18n from 'i18next'
 import './Experience.css'
-
-function getExperienceItems(t) {
-  const items = t('experience.items', { returnObjects: true })
-  if (Array.isArray(items) && items.length > 0) return items
-  const enBundle = i18n.getResourceBundle('en', 'translation')
-  const enItems = enBundle?.experience?.items
-  return Array.isArray(enItems) ? enItems : []
-}
 
 export default function Experience() {
   const { t } = useTranslation()
-  const items = getExperienceItems(t)
+  const items = t('experience.items', { returnObjects: true })
+  const hasItems = Array.isArray(items) && items.length > 0
 
-  if (items.length === 0) return null
+  if (!hasItems) return null
 
   return (
     <section id="experience">

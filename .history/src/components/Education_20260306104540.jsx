@@ -1,23 +1,12 @@
 import { useTranslation } from 'react-i18next'
-import i18n from 'i18next'
 import './Education.css'
-
-function getItems(t, key) {
-  const items = t(key, { returnObjects: true })
-  if (Array.isArray(items) && items.length > 0) return items
-  const enBundle = i18n.getResourceBundle('en', 'translation')
-  const path = key.split('.')
-  let en = enBundle
-  for (const p of path) { en = en?.[p] }
-  return Array.isArray(en) ? en : []
-}
 
 export default function Education() {
   const { t } = useTranslation()
-  const educationItems = getItems(t, 'education.items')
-  const certificationItems = getItems(t, 'certifications.items')
-  const hasEducation = educationItems.length > 0
-  const hasCertifications = certificationItems.length > 0
+  const educationItems = t('education.items', { returnObjects: true })
+  const certificationItems = t('certifications.items', { returnObjects: true })
+  const hasEducation = Array.isArray(educationItems) && educationItems.length > 0
+  const hasCertifications = Array.isArray(certificationItems) && certificationItems.length > 0
 
   return (
     <section id="education">

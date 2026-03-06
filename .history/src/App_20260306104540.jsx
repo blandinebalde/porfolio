@@ -50,37 +50,19 @@ function App() {
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  // Section enter animation (between section transitions)
-  useEffect(() => {
-    const sections = document.querySelectorAll('section[id]:not(#hero)')
-    const sectionObs = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('section-visible')
-            sectionObs.unobserve(entry.target)
-          }
-        })
-      },
-      { threshold: 0.08, rootMargin: '0px 0px -5% 0px' }
-    )
-    sections.forEach((el) => sectionObs.observe(el))
-    return () => sectionObs.disconnect()
-  }, [])
-
-  // Reveal on scroll (staggered elements inside sections)
+  // Reveal on scroll
   useEffect(() => {
     const reveals = document.querySelectorAll('.reveal')
     const obs = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry, i) => {
           if (entry.isIntersecting) {
-            setTimeout(() => entry.target.classList.add('visible'), i * 60)
+            setTimeout(() => entry.target.classList.add('visible'), i * 80)
             obs.unobserve(entry.target)
           }
         })
       },
-      { threshold: 0.1 }
+      { threshold: 0.12 }
     )
     reveals.forEach((el) => obs.observe(el))
     return () => obs.disconnect()
