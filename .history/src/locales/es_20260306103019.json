@@ -1,0 +1,129 @@
+{
+  "header": {
+    "name": "Néné Marcelle Blandine BALDE",
+    "title": "Ingeniera de Software y Sistemas de Información",
+    "location": "Rufisque, Dakar, Senegal",
+    "tagline": "Creo experiencias digitales accesibles y pixel-perfect para la web."
+  },
+  "hero": {
+    "eyebrow": "Ingeniera de Software · Full Stack",
+    "nameFirst": "Blandine",
+    "nameLast": "Baldé",
+    "tagline": "Construyo aplicaciones fiables y bien estructuradas — desde el diseño arquitectónico hasta el despliegue en producción. Precisión en backend. Frontend limpio. Impacto real.",
+    "viewProjects": "Ver proyectos",
+    "getInTouch": "Contactar",
+    "scroll": "desplazar"
+  },
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "education": "FORMACIÓN",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "certifications": "CERTIFICACIONES",
+    "contact": "Contacto",
+    "letsTalk": "Hablemos"
+  },
+  "about": {
+    "title": "Perfil profesional",
+    "description": "Ingeniera de software con más de 3 años de experiencia en desarrollo, mantenimiento y despliegue de aplicaciones para proyectos institucionales y comerciales.",
+    "sectionLabel": "Sobre mí",
+    "sectionTitle": "Ingeniera en",
+    "sectionTitleEm": "cada capa",
+    "p1": "Soy **Blandine Baldé**, ingeniera de software de nivel medio con un enfoque holístico del desarrollo. Participo en todo el ciclo de vida — desde **el análisis de requisitos y la arquitectura** hasta el desarrollo, pruebas y despliegue.",
+    "p2": "Mi objetivo es construir aplicaciones **fiables, bien estructuradas y que resuelvan problemas reales** — no solo técnicamente sólidas, sino verdaderamente útiles.",
+    "p3": "Aporto **rigor, autonomía y pensamiento analítico** a cada proyecto. Me desarrollo en entornos dinámicos donde puedo contribuir de forma significativa y seguir creciendo como ingeniera.",
+    "statYears": "3+",
+    "statYearsLabel": "Años de experiencia",
+    "statProjects": "2",
+    "statProjectsLabel": "Proyectos activos",
+    "statTech": "7+",
+    "statTechLabel": "Tecnologías"
+  },
+  "experience": {
+    "sectionLabel": "Trayectoria",
+    "sectionTitle": "Experiencia y",
+    "sectionTitleEm": "formación",
+    "timeline1Date": "2022 — Actualidad",
+    "timeline1Role": "Desarrolladora Full Stack",
+    "timeline1Company": "Proyectos independientes y Freelance",
+    "timeline1Point1": "Diseño y desarrollo de aplicaciones web y de escritorio de extremo a extremo, desde las decisiones de arquitectura hasta el despliegue en producción.",
+    "timeline1Point2": "Trabajo con Java, Spring Boot, Angular, JavaFX, PostgreSQL y MySQL en productos reales.",
+    "timeline1Point3": "Gestión del ciclo de desarrollo completo: análisis de requisitos, diseño, desarrollo, pruebas y release.",
+    "timeline2Date": "Formación",
+    "timeline2Role": "Estudios de ingeniería de software",
+    "timeline2Company": "Informática · Desarrollo y arquitectura",
+    "timeline2Point1": "Base sólida en programación orientada a objetos, estructuras de datos, algoritmos y arquitectura de software.",
+    "timeline2Point2": "Especialización en desarrollo Java empresarial y diseño de bases de datos relacionales.",
+    "title": "Experiencia profesional",
+    "items": []
+  },
+  "education": {
+    "title": "Formación",
+    "items": []
+  },
+  "skills": {
+    "sectionLabel": "Expertise",
+    "sectionTitle": "La",
+    "sectionTitleEm": "stack",
+    "sectionTitleSuffix": "con la que trabajo",
+    "groupBackend": "Backend",
+    "groupFrontend": "Frontend",
+    "groupData": "Datos",
+    "groupTools": "Prácticas y herramientas",
+    "title": "Habilidades técnicas",
+    "categories": {},
+    "items": {},
+    "soft": { "title": "", "items": [] },
+    "transversal": { "title": "", "items": [] }
+  },
+  "projects": {
+    "sectionLabel": "Trabajos",
+    "sectionTitle": "Proyectos",
+    "sectionTitleEm": "seleccionados",
+    "featured1Label": "Plataforma web · Full Stack",
+    "featured1Title": "Plataforma de reserva de servicios",
+    "featured1Desc": "Una plataforma inspirada en ClassPass que conecta clientes con proveedores de servicios — salones de belleza, peluquerías y masajistas. Gestión de usuarios, reservas, disponibilidad en tiempo real y panel para proveedores.",
+    "featured2Label": "Aplicación de escritorio · JavaFX",
+    "featured2Title": "Sistema de gestión de almacén",
+    "featured2Desc": "Aplicación de escritorio completa para operaciones de almacén: gestión de stock, entradas/salidas, pedidos, roles de usuario y transferencias entre almacenes — interfaz JavaFX con MySQL.",
+    "github": "GitHub",
+    "title": "Proyectos",
+    "personal": { "title": "", "items": [] },
+    "academic": { "title": "", "items": [] }
+  },
+  "activities": { "title": "", "items": [] },
+  "certifications": { "title": "", "items": [] },
+  "languages": { "title": "", "items": [] },
+  "contact": {
+    "sectionLabel": "Contacto",
+    "headingLine1": "Construyamos",
+    "headingLine2": "algo",
+    "headingEm": "grande.",
+    "title": "Contacto",
+    "phone": "Teléfono",
+    "email": "Email",
+    "github": "GitHub",
+    "location": "Ubicación",
+    "formTitle": "Envíame un mensaje",
+    "formName": "Nombre",
+    "formNamePlaceholder": "Tu nombre",
+    "formEmail": "Email",
+    "formEmailPlaceholder": "tu.email@ejemplo.com",
+    "formSubject": "Asunto",
+    "formSubjectPlaceholder": "Asunto del mensaje",
+    "formMessage": "Mensaje",
+    "formMessagePlaceholder": "Tu mensaje...",
+    "formSubmit": "Enviar",
+    "formSending": "Enviando...",
+    "formSuccess": "¡Mensaje enviado!",
+    "formError": "Ha ocurrido un error. Inténtalo de nuevo."
+  },
+  "footer": {
+    "copyright": "© 2025 Blandine Baldé",
+    "built": "Diseñado y construido con precisión"
+  },
+  "toast": {
+    "copied": "¡Email copiado!"
+  }
+}

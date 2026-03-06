@@ -36,7 +36,7 @@
 }
 
 .education-item:hover {
-  background: rgba(100, 255, 218, 0.05);
+  background: rgba(255, 140, 0, 0.05);
   transform: translateX(8px);
   border-left-color: var(--primary-color);
 }
@@ -44,7 +44,7 @@
 .education-item:hover::before {
   background: var(--primary-color);
   border-color: var(--primary-color);
-  box-shadow: 0 0 12px rgba(100, 255, 218, 0.4);
+  box-shadow: 0 0 12px rgba(255, 140, 0, 0.25);
   transform: translateX(-7px);
 }
 
@@ -107,7 +107,7 @@
 
 .education-item:hover .education-degree {
   color: var(--primary-color);
-  text-shadow: 0 0 10px rgba(100, 255, 218, 0.4);
+  text-shadow: 0 0 10px rgba(255, 140, 0, 0.25);
   transform: translateX(2px);
 }
 

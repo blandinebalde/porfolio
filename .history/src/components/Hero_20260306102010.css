@@ -1,0 +1,229 @@
+/* ─── HERO ──────────────────────────────────────── */
+#hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  overflow: hidden;
+}
+
+#hero::after {
+  content: '';
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255,140,0,0.12) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+}
+
+.hero-eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin-bottom: 24px;
+  opacity: 0;
+  animation: fadeUp 0.6s ease 0.2s forwards;
+}
+
+.hero-eyebrow::before {
+  content: '';
+  display: block;
+  width: 32px;
+  height: 1px;
+  background: var(--amber);
+}
+
+.hero-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(64px, 8vw, 110px);
+  font-weight: 300;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: var(--white);
+  opacity: 0;
+  animation: fadeUp 0.8s ease 0.4s forwards;
+}
+
+.hero-name em {
+  font-style: italic;
+  color: var(--amber);
+}
+
+.hero-tagline {
+  margin-top: 28px;
+  font-size: 15px;
+  font-weight: 300;
+  color: var(--muted);
+  max-width: 480px;
+  line-height: 1.8;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 0.65s forwards;
+}
+
+.hero-actions {
+  margin-top: 48px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  opacity: 0;
+  animation: fadeUp 0.8s ease 0.85s forwards;
+}
+
+.btn-primary {
+  padding: 14px 36px;
+  background: var(--amber);
+  color: var(--bg);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: none;
+  transition: opacity 0.2s, transform 0.2s;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+  opacity: 0.88;
+  transform: translateY(-2px);
+}
+
+.btn-ghost {
+  padding: 14px 36px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: none;
+  transition: border-color 0.2s, color 0.2s, transform 0.2s;
+  display: inline-block;
+}
+
+.btn-ghost:hover {
+  border-color: var(--amber);
+  color: var(--amber);
+  transform: translateY(-2px);
+}
+
+.hero-visual {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 360px;
+  height: 360px;
+  opacity: 0;
+  animation: fadeIn 1.2s ease 1s forwards;
+}
+
+.orb-outer {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 1px solid var(--border-amber);
+  position: relative;
+  animation: rotate 20s linear infinite;
+}
+
+.orb-outer::before {
+  content: '';
+  position: absolute;
+  inset: 20px;
+  border-radius: 50%;
+  border: 1px dashed rgba(255,140,0,0.2);
+  animation: rotate 12s linear infinite reverse;
+}
+
+.orb-core {
+  position: absolute;
+  inset: 60px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 35%, rgba(255,140,0,0.25), rgba(8,13,59,0.9));
+  border: 1px solid rgba(255,140,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orb-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  color: var(--amber);
+  text-align: center;
+  line-height: 2;
+  opacity: 0.9;
+}
+
+.orb-dot {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: var(--amber);
+  border-radius: 50%;
+}
+
+.orb-dot:nth-child(1) {
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.orb-dot:nth-child(2) {
+  bottom: 30%;
+  right: -4px;
+}
+
+.orb-dot:nth-child(3) {
+  top: 25%;
+  left: -4px;
+}
+
+.scroll-hint {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--muted);
+  opacity: 0;
+  animation: fadeIn 1s ease 1.4s forwards;
+}
+
+.scroll-line {
+  width: 1px;
+  height: 48px;
+  background: var(--amber);
+  animation: scrollPulse 2s ease infinite;
+}
+
+@media (max-width: 768px) {
+  #hero {
+    padding: 0 24px;
+  }
+
+  .hero-visual {
+    display: none;
+  }
+}
