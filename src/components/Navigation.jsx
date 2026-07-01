@@ -36,6 +36,7 @@ export default function Navigation({ scrolled }) {
         <li><a href="#projects">{t('nav.projects')}</a></li>
         <li><a href="#experience">{t('nav.experience')}</a></li>
         <li><a href="#education">{t('nav.education')}</a></li>
+        <li><a href="#certifications">{t('nav.certifications')}</a></li>
       </ul>
       <div className="nav-right">
         <a
@@ -55,7 +56,7 @@ export default function Navigation({ scrolled }) {
         type="button"
         className={`nav-toggle ${menuOpen ? 'active' : ''}`}
         onClick={() => setMenuOpen((o) => !o)}
-        aria-label={menuOpen ? 'Fermer le menu' : 'Ouvrir le menu'}
+        aria-label={menuOpen ? t('nav.closeMenu') : t('nav.openMenu')}
         aria-expanded={menuOpen}
       >
         <span />
@@ -71,6 +72,7 @@ export default function Navigation({ scrolled }) {
           <li><a href="#projects" onClick={closeMenu}>{t('nav.projects')}</a></li>
           <li><a href="#experience" onClick={closeMenu}>{t('nav.experience')}</a></li>
           <li><a href="#education" onClick={closeMenu}>{t('nav.education')}</a></li>
+          <li><a href="#certifications" onClick={closeMenu}>{t('nav.certifications')}</a></li>
         </ul>
         <div className="nav-mobile-actions">
           <a href={cv.url} className="nav-cv" download={cv.filename} target="_blank" rel="noopener noreferrer" onClick={closeMenu}>

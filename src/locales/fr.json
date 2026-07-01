@@ -20,10 +20,12 @@
     "education": "Formation",
     "skills": "Compétences",
     "projects": "Projets",
-    "certifications": "CERTIFICATIONS",
+    "certifications": "Certifications",
     "contact": "Contact",
     "letsTalk": "Parlons-en",
-    "downloadCV": "Télécharger le CV"
+    "downloadCV": "Télécharger le CV",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
   },
   "about": {
     "title": "Profil professionnel",
@@ -73,7 +75,7 @@
         ]
       },
       {
-        "title": "Front-End Developer | Software Engineer",
+        "title": "Développeuse Front-End | Ingénieure logiciel",
         "company": "B&G Digital",
         "period": "Septembre 2022 – Janvier 2023",
         "missions": [
@@ -83,7 +85,7 @@
         ]
       },
       {
-        "title": "Software Engineer | Ingénieure Tests / DevOps",
+        "title": "Ingénieure logiciel | Tests / DevOps",
         "company": "B&G Digital",
         "period": "Mars 2022 – Août 2022",
         "missions": [
@@ -101,8 +103,8 @@
     "title": "Diplômes",
     "items": [
       {
-        "degree": "Master 2 en génie logiciel et systéme d'information ",
-        "school": "Ecole supérieure polytechnique de Dakar (ESP)",
+        "degree": "Master 2 en génie logiciel et système d'information",
+        "school": "École supérieure polytechnique de Dakar (ESP)",
         "period": "2022"
       },
       {
@@ -132,6 +134,24 @@
     "groupData": "Données",
     "groupTools": "Pratiques & outils",
     "title": "Compétences techniques",
+    "groups": [
+      {
+        "title": "Backend",
+        "tags": ["Java", "Spring Boot", "API REST", "JWT", "PHP", "Laravel"]
+      },
+      {
+        "title": "Frontend",
+        "tags": ["Angular", "React", "TypeScript", "Flutter", "HTML / CSS"]
+      },
+      {
+        "title": "Données",
+        "tags": ["PostgreSQL", "MySQL", "SQLite", "Modélisation de données", "SQL avancé"]
+      },
+      {
+        "title": "Pratiques & outils",
+        "tags": ["Git / GitHub", "Docker", "Jenkins", "CI / CD", "Agile / Scrum"]
+      }
+    ],
     "categories": {
       "scripting": "Langage de Scripting",
       "programming": "Langage de programmation",
@@ -227,7 +247,7 @@
           "description": "Plateforme digitale composée d'une application web, d'une application mobile et d'un marketplace intégré. La plateforme permet une visibilité en temps réel des activités d'entrepôt (stock, facture, vente, logs, etc...) et intègre des fonctionnalités d'intelligence artificielle pour la prévision des ruptures de stock, l'optimisation des niveaux d'inventaire et la prévision des ventes.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
           "role": "Conception, développement et déploiement"
-        },         {
+        }, {
           "name": "Flexifit – Plateforme de réservation de services",
           "description": "Application web permettant aux clients de réserver des services (coiffure, esthétique, massage, etc.) auprès de prestataires partenaires. Les prestataires disposent d'un tableau de bord pour gérer leurs disponibilités, services, réservations et revenus.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
@@ -265,16 +285,16 @@
         "name": "EnglishScore Core skills",
         "provider": "British Council",
         "period": "2025",
-        "document": "Score : 442 (B2) upper intermediate"
+        "document": "Score : 442 (B2) niveau intermédiaire supérieur"
       },
       {
-        "name": "ETL using python: from MySQL to big query",
+        "name": "ETL avec Python : de MySQL à BigQuery",
         "provider": "Udemy",
         "period": "2023",
         "document": "Certificat de formation"
       },
       {
-        "name": "LPI Linux Essentials (010-160) Complete Course and Exams",
+        "name": "LPI Linux Essentials (010-160) — cours complet et examens",
         "provider": "Formation en ligne",
         "period": "2023",
         "document": "Certificat de formation"
@@ -286,7 +306,7 @@
         "document": "Certificat de formation"
       },
       {
-        "name": "Complete Agile Scrum Master Certification Training",
+        "name": "Formation complète Certification Agile Scrum Master",
         "provider": "Udemy",
         "period": "2023",
         "document": "Certificat de formation"

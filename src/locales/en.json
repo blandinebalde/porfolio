@@ -23,7 +23,9 @@
     "certifications": "CERTIFICATIONS",
     "contact": "Contact",
     "letsTalk": "Let's talk",
-    "downloadCV": "Download CV"
+    "downloadCV": "Download CV",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
   },
   "about": {
     "title": "Professional Profile",
@@ -132,6 +134,24 @@
     "groupData": "Data",
     "groupTools": "Practices & Tools",
     "title": "Technical Skills",
+    "groups": [
+      {
+        "title": "Backend",
+        "tags": ["Java", "Spring Boot", "REST API", "JWT", "PHP", "Laravel"]
+      },
+      {
+        "title": "Frontend",
+        "tags": ["Angular", "React", "TypeScript", "Flutter", "HTML / CSS"]
+      },
+      {
+        "title": "Data",
+        "tags": ["PostgreSQL", "MySQL", "SQLite", "Data Modeling", "Advanced SQL"]
+      },
+      {
+        "title": "Practices & Tools",
+        "tags": ["Git / GitHub", "Docker", "Jenkins", "CI / CD", "Agile / Scrum"]
+      }
+    ],
     "categories": {
       "scripting": "Scripting Languages",
       "programming": "Programming Languages",
