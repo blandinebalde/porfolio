@@ -1,12 +1,12 @@
 {
   "header": {
     "name": "Néné Marcelle Blandine BALDE",
-    "title": "Software and Information System Engineer",
-    "location": "Rufisque, Dakar, Senegal",
+    "title": "Software and Information System Engineer | Java Spring Boot | Angular | DevOps",
+    "location": "Dakar, Senegal",
     "tagline": "I build accessible, pixel-perfect digital experiences for the web."
   },
   "hero": {
-    "eyebrow": "Software Engineer · Full Stack",
+    "eyebrow": "Software Engineer · Spring Boot · Angular · DevOps",
     "nameFirst": "Blandine",
     "nameLast": "Baldé",
     "tagline": "I build reliable, well-structured applications — from architectural design to production deployment. Backend precision. Clean frontend. Real impact.",
@@ -27,16 +27,16 @@
   },
   "about": {
     "title": "Professional Profile",
-    "description": "Software engineering engineer with over 3 years of experience in development, maintenance and deployment of computer applications for institutional and commercial projects. I have worked on web and desktop applications, using Java, Spring Boot, Angular, Python and Django, as well as MySQL and PostgreSQL databases.\n\nMy experiences include frontend development, test automation, setting up CI/CD pipelines with Jenkins, and performing performance and manual testing. Accustomed to working in structured environments, I am focused on quality, security and collaboration.\n\nI wish to continue my career in a stimulating and international environment, deepen my technical skills and contribute to ambitious projects by combining technical expertise and methodological rigor.",
+    "description": "Software engineer with over 3 years of experience in designing, developing, deploying and maintaining web and desktop applications. Full mastery of the software project lifecycle, with knowledge of DevOps practices (CI/CD). Rigorous, autonomous and quality-oriented, I contribute to reliable and scalable solutions.",
     "sectionLabel": "About",
     "sectionTitle": "Engineer at",
     "sectionTitleEm": "every layer",
-    "p1": "I'm **Blandine Baldé**, a mid-level software engineer with a holistic approach to development. I'm involved across the entire lifecycle — from **requirements analysis and architecture** to development, testing, and production deployment.",
-    "p2": "My focus is building applications that are **reliable, well-structured, and solve real problems** — not just technically sound, but genuinely useful.",
-    "p3": "I bring **rigour, autonomy, and analytical thinking** to every project. I thrive in dynamic environments where I can contribute meaningfully and keep growing as an engineer.",
+    "p1": "I'm **Blandine Baldé**, a software engineer with over 3 years of experience. I cover the full lifecycle — from **design and architecture** to development, deployment and maintenance.",
+    "p2": "I build **reliable and scalable web and desktop applications**, with expertise in **Spring Boot, Angular** and **DevOps (CI/CD)** practices.",
+    "p3": "**Rigorous, autonomous and quality-oriented**, I contribute to concrete solutions in structured environments, collaborating with business and technical teams.",
     "statYears": "3+",
     "statYearsLabel": "Years experience",
-    "statProjects": "2",
+    "statProjects": "3",
     "statProjectsLabel": "Active projects",
     "statTech": "7+",
     "statTechLabel": "Technologies"
@@ -59,16 +59,17 @@
     "title": "Professional Experience",
     "items": [
       {
-        "title": "Software and Information System Engineer",
+        "title": "Software Engineer",
         "company": "Synapsys",
         "period": "February 2023 – Present",
         "missions": [
-          "Development of an application for managing tourist tax collection with jhipster [Tools: Angular, Spring Boot, PostgreSQL]",
-          "Corrective maintenance of an application for universal health coverage (SEN-CSU): insured persons and health organizations. [Tools: Angular, Spring Boot, MySQL]",
-          "Development of an offline desktop application for SEN-CSU management. Synchronization with online data [Tools: Electron, SQLite]",
-          "Development of a materials management and order-taking application for SYLAB, with SYLAB integration for entity creation. [Tools: Laravel, PostgreSQL]. Deployment in test environment (Jenkins, Docker, Linux).",
-          "Development of an application for access control in a company [Tools: PHP, Angular]",
-          "Development of an application for tracking enrollments with SYLAB (mobile and desktop): enrolled data, user and structure creation, enrollment method configuration. [Tools: Spring Boot, Angular, MySQL]"
+          "Development of an employee audit management system covering organizational structure, org chart, staff and manager management — integrated with an Android mobile app for authentication. Deployed in test environment. [Tools: Spring Boot, Angular, Android]",
+          "Development of an access control application for a company [Tools: PHP, Angular]",
+          "Development of a SYLAB enrollment tracking application (mobile and desktop): enrolled data display, user and structure creation, enrollment method configuration. Interoperability. [Tools: Spring Boot, Angular, MySQL]",
+          "Development of a SYLAB materials management and order-taking application with SYLAB integration for entity creation. Deployed in test environment. [Tools: Laravel, PostgreSQL, Jenkins, Docker, Linux]",
+          "Development of a tourist tax collection management application with JHipster [Tools: Angular, Spring Boot, PostgreSQL]",
+          "Corrective maintenance of a universal health coverage application (SEN-CSU): insured persons and health organizations management. [Tools: Angular, Spring Boot, MySQL]",
+          "Development of an offline desktop application for SEN-CSU management. Synchronization with online data [Tools: Electron.js, SQLite]"
         ]
       },
       {
@@ -76,19 +77,19 @@
         "company": "B&G Digital",
         "period": "September 2022 - January 2023",
         "missions": [
-          "Write automated test algorithms and generate QA test reports. [Tools: Cucumber, Selenium, Appium, JMeter, Jenkins]",
-          "Frontend development of a tourism management application (hotel, restaurant, discovery, events). [Tools: Angular]",
-          "Manual testing, performance testing. [Tools: Selenium, Appium, JMeter, Cucumber, Jenkins]"
+          "Write automated test algorithms and generate QA test reports",
+          "Frontend development of a tourism management application (hotel, restaurant, discovery, events)",
+          "Manual testing, performance testing"
         ]
       },
       {
-        "title": "Software Engineer | Tester",
+        "title": "Software Engineer | Test Engineer / DevOps",
         "company": "B&G Digital",
         "period": "March 2022 – August 2022",
         "missions": [
-          "Write automated test algorithms and generate QA test reports. [Tools: Cucumber, Selenium, Appium, JMeter, Jenkins]",
-          "Create a delivery pipeline including automated tests and send test reports to developers [Tools: Cucumber, Jenkins]",
-          "CI/CD automation using Jenkins [Tools: Jenkins]"
+          "Write automated test algorithms and generate QA test reports",
+          "Create a delivery pipeline including automated tests and send test reports to developers",
+          "CI/CD automation using Jenkins"
         ]
       }
     ]
@@ -169,31 +170,34 @@
       "microservices": "Microservices (basics)",
       "electron": "Electron.js",
       "springboot": "Spring Boot",
-      "php": "PHP"
+      "php": "PHP",
+      "laravel": "Laravel",
+      "flutter": "Flutter",
+      "jwt": "JWT"
     },
     "soft": {
       "title": "Other Skills",
       "items": [
-        "Ability to work under pressure",
-        "Listening skills and availability",
-        "Reactivity and priority management",
-        "Rigor and sense of responsibility",
-        "Collaboration and team spirit",
-        "Multidisciplinary teamwork",
-        "Technology watch"
+        "Requirements analysis, design and modeling (UML, MERISE)",
+        "Development, deployment, maintenance and application support",
+        "Agile/Scrum project management",
+        "Coordination with business and technical teams",
+        "Rigor, organization and technology watch",
+        "Good communication and team spirit",
+        "Priority management and autonomy"
       ]
     },
     "transversal": {
       "title": "Transversal Technical Skills",
       "items": [
-        "Technical support and application maintenance",
-        "Analysis and design of complex platforms",
-        "Application deployment",
-        "Application security (best practices)",
-        "Database modeling (MERISE, UML)",
+        "DevOps practices: continuous integration and deployment (CI/CD)",
+        "Relational database design and optimization",
         "Advanced SQL query writing",
-        "Technical documentation writing (LaTeX)",
-        "Cloud knowledge: AWS, Google Cloud"
+        "Application security and secure development best practices",
+        "Technical documentation writing (LaTeX, functional and technical)",
+        "Cloud services: AWS, Google Cloud Platform",
+        "Deployment in test and production environments",
+        "User support"
       ]
     }
   },
@@ -201,17 +205,23 @@
     "sectionLabel": "Work",
     "sectionTitle": "Selected",
     "sectionTitleEm": "projects",
-    "featured1Label": "Web Platform · Full Stack",
-    "featured1Title": "Service Booking Platform",
-    "featured1Desc": "A ClassPass-inspired platform connecting clients with service providers — beauty salons, hairdressers, and massage therapists. Features user management, appointment scheduling, real-time availability tracking, and a dedicated provider dashboard.",
-    "featured2Label": "Desktop App · JavaFX",
-    "featured2Title": "Warehouse Management System",
-    "featured2Desc": "A full-featured desktop application for warehouse operations. Covers stock management, inbound/outbound tracking, order management, user roles, and inter-warehouse transfers — all from a structured JavaFX interface backed by MySQL.",
+    "featured1Label": "SaaS · Full Stack",
+    "featured1Title": "Online Food Ordering Platform",
+    "featured1Desc": "Multi-client SaaS solution for restaurants: customer shop, admin back-office and vendor mobile app. Secure REST backend (Spring Boot, JWT), multi-channel stock management, financial tracking and cloud deployment (Render, Vercel, PostgreSQL).",
+    "featured2Label": "Web Platform · Full Stack",
+    "featured2Title": "Multi-warehouse Management Platform",
+    "featured2Desc": "Web app, mobile app and integrated marketplace for real-time warehouse visibility (stock, invoices, sales, logs). AI features for stock-out forecasting and inventory optimization.",
     "github": "GitHub",
     "title": "Projects",
     "personal": {
       "title": "Personal Projects",
       "items": [
+        {
+          "name": "Online Ordering Platform — Restaurant SaaS Solution",
+          "description": "Full-stack design and development of an online ordering platform (customer shop, admin back-office, vendor mobile app) for food businesses. Secure REST backend architecture (Spring Boot, Spring Security, JWT) with fine-grained permissions, consumed by a React web frontend and Flutter mobile app. Data model for multi-channel stock management, financial tracking and promotions. Production deployment on Render, Vercel and PostgreSQL. Mono-tenant architecture deployable per instance, with Wave and Orange Money payment support.",
+          "technologies": "Spring Boot, Spring Security, JWT, React, Flutter, PostgreSQL, Render, Vercel, Docker",
+          "role": "Full-stack design, development and production deployment"
+        },
         {
           "name": "Multi-warehouse Management Platform",
           "description": "Digital platform consisting of a web application, a mobile application and an integrated marketplace. The platform provides real-time visibility of warehouse activities (stock, invoice, sales, logs, etc.) and integrates artificial intelligence features for stock-out forecasting, inventory level optimization and sales forecasting.",
@@ -219,10 +229,10 @@
           "role": "Design, development and deployment"
         },
         {
-          "name": "FlexiFit – Service Booking Platform",
+          "name": "Flexifit – Service Booking Platform",
           "description": "Web application allowing clients to book services (hairdressing, beauty, massage, etc.) from partner providers. Providers have a dashboard to manage their availability, services, bookings and revenue.",
-          "technologies": "Angular, Spring Boot, MySQL, Git",
-          "role": "Architecture design, frontend and backend development, implementation of main features and testing"
+          "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
+          "role": "Design, development and deployment"
         }
       ]
     },
@@ -252,6 +262,12 @@
   "certifications": {
     "title": "Training (Courses)",
     "items": [
+      {
+        "name": "EnglishScore Core skills",
+        "provider": "British Council",
+        "period": "2025",
+        "document": "Score: 442 (B2) upper intermediate"
+      },
       {
         "name": "ETL using python: from MySQL to big query",
         "provider": "Udemy",
@@ -293,7 +309,11 @@
       },
       {
         "language": "English",
-        "level": "Good written comprehension, basic professional communication"
+        "level": "Good written comprehension, basic professional communication (B2 — EnglishScore 442)"
+      },
+      {
+        "language": "Wolof",
+        "level": "Native"
       }
     ]
   },
@@ -322,7 +342,7 @@
     "formError": "An error occurred. Please try again."
   },
   "footer": {
-    "copyright": "© 2025 Blandine Baldé",
+    "copyright": "© 2026 Blandine Baldé",
     "built": "Designed & built with precision"
   },
   "toast": {

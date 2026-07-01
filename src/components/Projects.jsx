@@ -18,6 +18,16 @@ const GITHUB_URL = 'https://github.com/blandinebalde'
 const projectVisuals = [
   (
     <>
+      <span style={{ color: 'rgba(255,140,0,0.8)' }}>POST</span> /api/orders<br />
+      <span style={{ color: 'rgba(255,140,0,0.8)' }}>GET</span>  /api/menu<br />
+      <span style={{ color: 'rgba(255,140,0,0.8)' }}>JWT</span>  → authorized<br />
+      <span style={{ color: 'rgba(255,140,0,0.5)' }}>──────────────────</span><br />
+      <span style={{ color: 'rgba(238,240,248,0.4)' }}>stack:  </span>Spring Boot, React<br />
+      <span style={{ color: 'rgba(238,240,248,0.4)' }}>deploy: </span>Render, Vercel
+    </>
+  ),
+  (
+    <>
       <span style={{ color: 'rgba(255,140,0,0.8)' }}>Stock</span>      → real-time<br />
       <span style={{ color: 'rgba(255,140,0,0.8)' }}>Inbound</span>    → 14 today<br />
       <span style={{ color: 'rgba(255,140,0,0.8)' }}>Outbound</span>   → 9 today<br />
@@ -33,7 +43,7 @@ const projectVisuals = [
       <span style={{ color: 'rgba(255,140,0,0.8)' }}>GET</span>  /api/providers<br />
       <span style={{ color: 'rgba(255,140,0,0.5)' }}>──────────────────</span><br />
       <span style={{ color: 'rgba(238,240,248,0.4)' }}>status: </span><span style={{ color: '#4CAF8A' }}>200 OK</span><br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>db:     </span>PostgreSQL
+      <span style={{ color: 'rgba(238,240,248,0.4)' }}>db:     </span>MySQL
     </>
   ),
   (

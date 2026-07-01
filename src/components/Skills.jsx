@@ -2,10 +2,10 @@ import { useTranslation } from 'react-i18next'
 import './Skills.css'
 
 const skillGroupKeys = [
-  { titleKey: 'skills.groupBackend', tags: ['Java', 'Spring Boot', 'Spring Security', 'REST APIs', 'JPA / Hibernate'] },
-  { titleKey: 'skills.groupFrontend', tags: ['Angular', 'TypeScript', 'JavaFX', 'HTML / CSS', 'Responsive Design'] },
-  { titleKey: 'skills.groupData', tags: ['PostgreSQL', 'MySQL', 'Data Modeling', 'Query Optimization'] },
-  { titleKey: 'skills.groupTools', tags: ['Git / GitHub', 'Architecture Design', 'Unit Testing', 'Agile / Scrum', 'CI / CD'] },
+  { titleKey: 'skills.groupBackend', tags: ['Java', 'Spring Boot', 'REST API', 'JWT', 'PHP', 'Laravel'] },
+  { titleKey: 'skills.groupFrontend', tags: ['Angular', 'React', 'TypeScript', 'Flutter', 'HTML / CSS'] },
+  { titleKey: 'skills.groupData', tags: ['PostgreSQL', 'MySQL', 'SQLite', 'Data Modeling', 'Advanced SQL'] },
+  { titleKey: 'skills.groupTools', tags: ['Git / GitHub', 'Docker', 'Jenkins', 'CI / CD', 'Agile / Scrum'] },
 ]
 
 export default function Skills() {

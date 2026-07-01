@@ -24,7 +24,7 @@ export default function Hero() {
           <div className="orb-dot" />
           <div className="orb-core">
             <div className="orb-text">
-              Java<br />Spring Boot<br />Angular<br />PostgreSQL
+              Java<br />Spring Boot<br />Angular<br />DevOps
             </div>
           </div>
         </div>

@@ -1,12 +1,12 @@
 {
   "header": {
     "name": "Néné Marcelle Blandine BALDE",
-    "title": "Ingénieur Génie Logiciel et systéme d'information",
-    "location": "Rufisque, Dakar, Sénégal",
+    "title": "Ingénieure Génie logiciel et Système d'Information | Java Spring Boot | Angular | DevOps",
+    "location": "Dakar, Sénégal",
     "tagline": "Je développe des expériences digitales accessibles et pixel-perfect pour le web."
   },
   "hero": {
-    "eyebrow": "Ingénieure logicielle · Full Stack",
+    "eyebrow": "Ingénieure logicielle · Spring Boot · Angular · DevOps",
     "nameFirst": "Blandine",
     "nameLast": "Baldé",
     "tagline": "Je conçois des applications fiables et structurées — de l'architecture au déploiement. Précision backend. Frontend soigné. Impact concret.",
@@ -27,16 +27,16 @@
   },
   "about": {
     "title": "Profil professionnel",
-    "description": "Ingénieure en génie logiciel avec plus de 3 ans d'expérience dans le développement, la maintenance et le déploiement d'applications informatiques pour des projets institutionnels et commerciaux. J'ai travaillé sur des applications web et desktop, utilisant Java, Spring Boot, Angular, Python et Django, ainsi que des bases de données MySQL et PostgreSQL.\n\nMes expériences incluent le développement frontend, l'automatisation des tests, la mise en place de pipelines CI/CD avec Jenkins et la réalisation de tests de performance et manuels. Habituée à travailler dans des environnements structurés, je suis orientée qualité, sécurité et collaboration.\n\nJe souhaite poursuivre mon parcours dans un environnement stimulant et international, approfondir mes compétences techniques et contribuer à des projets ambitieux en combinant expertise technique et rigueur méthodologique.",
+    "description": "Ingénieure en génie logiciel avec plus de 3 ans d'expérience dans la conception, le développement, le déploiement et la maintenance d'applications web et desktop. Maîtrise de l'ensemble du cycle de vie d'un projet logiciel, avec des connaissances en pratiques DevOps (CI/CD). Rigoureuse, autonome et orientée qualité, je contribue à la réalisation de solutions fiables et évolutives.",
     "sectionLabel": "À propos",
     "sectionTitle": "Ingénieure à",
     "sectionTitleEm": "tous les niveaux",
-    "p1": "Je suis **Blandine Baldé**, ingénieure logicielle avec une approche globale du développement. Je m'implique sur tout le cycle — de **l'analyse des besoins et l'architecture** au développement, aux tests et au déploiement.",
-    "p2": "Mon objectif : des applications **fiables, bien structurées et utiles** — pas seulement solides techniquement, mais qui résolvent de vrais problèmes.",
-    "p3": "J'apporte **rigueur, autonomie et esprit d'analyse** à chaque projet. Je m'épanouis dans des environnements dynamiques où je peux contribuer concrètement et continuer à progresser.",
+    "p1": "Je suis **Blandine Baldé**, ingénieure en génie logiciel avec plus de 3 ans d'expérience. Je couvre tout le cycle de vie — de **la conception et l'architecture** au développement, au déploiement et à la maintenance.",
+    "p2": "Je conçois des applications **web et desktop fiables et évolutives**, avec une expertise en **Spring Boot, Angular** et des pratiques **DevOps (CI/CD)**.",
+    "p3": "**Rigoureuse, autonome et orientée qualité**, je contribue à des solutions concrètes dans des environnements structurés, en collaboration avec les équipes métier et techniques.",
     "statYears": "3+",
     "statYearsLabel": "Années d'expérience",
-    "statProjects": "2",
+    "statProjects": "3",
     "statProjectsLabel": "Projets actifs",
     "statTech": "7+",
     "statTechLabel": "Technologies"
@@ -59,16 +59,17 @@
     "title": "Expériences professionnelles",
     "items": [
       {
-        "title": "Ingénieur génie logiciel et systéme d'information",
+        "title": "Ingénieur génie logiciel",
         "company": "Synapsys",
         "period": "Février 2023 – Aujourd'hui",
         "missions": [
-          "Développement d'une application pour la gestion de la collecte des taxes touristiques avec jhipster [Outils : Angular, Spring Boot, PostgreSQL]",
-          "Maintenance corrective d'une application pour la couverture santé universelle (SEN-CSU) : assurés et organismes de santé. [Outils : Angular, Spring Boot, MySQL]",
-          "Développement d'une application desktop offline pour la gestion SEN-CSU. Synchronisation avec les données en ligne [Outils : Electron, SQLite]",
-          "Développement d'une application de gestion et prise de commande des matériaux SYLAB avec interaction SYLAB pour la création des entités. [Outils : Laravel, PostgreSQL]. Déploiement en environnement de test (Jenkins, Docker, Linux).",
+          "Développement d'un système de gestion d'audit des employés couvrant la structure organisationnelle, l'organigramme, la gestion du personnel et des responsables — intégré à une application mobile Android pour l'authentification. Déploiement en environnement de test. [Outils : Spring Boot, Angular, Android]",
           "Développement d'une application pour le contrôle d'accès en entreprise [Outils : PHP, Angular]",
-          "Développement d'une application de suivi des enrôlements SYLAB (mobile et desktop) : données enrôlées, création d'utilisateurs et de structures, configuration des méthodes d'enrôlement. [Outils : Spring Boot, Angular, MySQL]"
+          "Développement d'une application de suivi des enrôlements SYLAB (mobile et desktop) : affichage des données enrôlées, création d'utilisateurs et de structures, configuration des méthodes d'enrôlement. Interopérabilité. [Outils : Spring Boot, Angular, MySQL]",
+          "Développement d'une application de gestion et prise de commande des matériaux SYLAB avec interaction SYLAB pour la création des entités. Déploiement en environnement de test. [Outils : Laravel, PostgreSQL, Jenkins, Docker, Linux]",
+          "Développement d'une application pour la gestion de la collecte des taxes touristiques avec JHipster [Outils : Angular, Spring Boot, PostgreSQL]",
+          "Maintenance corrective d'une application pour la couverture santé universelle (SEN-CSU) : gestion des assurés et des organismes de santé. [Outils : Angular, Spring Boot, MySQL]",
+          "Développement d'une application desktop offline pour la gestion SEN-CSU. Synchronisation avec les données en ligne [Outils : Electron.js, SQLite]"
         ]
       },
       {
@@ -76,9 +77,9 @@
         "company": "B&G Digital",
         "period": "Septembre 2022 – Janvier 2023",
         "missions": [
-          "Écrire des algorithmes de tests automatisés et générer un rapport de tests QA. [Outils : Cucumber , Selenium , appium , jmeter , jenkins]",
-          "Développement frontend d'une application de gestion touristique (hôtel, restaurant, découverte, événement). [Outils : angular]",
-          "Tests manuels, tests de performances. [Outils : selenium, appium, jmeter , cucumber , jenkins]"
+          "Écrire des algorithmes de tests automatisés et générer un rapport de tests QA",
+          "Développement frontend d'une application de gestion touristique (hôtel, restaurant, découverte, événement)",
+          "Tests manuels, tests de performances"
         ]
       },
       {
@@ -86,9 +87,9 @@
         "company": "B&G Digital",
         "period": "Mars 2022 – Août 2022",
         "missions": [
-          "Écrire des algorithmes de tests automatisés et générer un rapport de tests QA. [Outils : Cucumber , Selenium , appium , jmeter , jenkins]",
-          "Créer un pipeline de livraison incluant les tests automatisés et envoyer le rapport de tests aux développeurs [Outils : cucumber, jenkins]",
-          "Automatisation du CI/CD en utilisant Jenkins [Outils : jenkins]"
+          "Écrire des algorithmes de tests automatisés et générer un rapport de tests QA",
+          "Créer un pipeline de livraison incluant les tests automatisés et envoyer le rapport de tests aux développeurs",
+          "Automatisation du CI/CD en utilisant Jenkins"
         ]
       }
     ]
@@ -169,31 +170,34 @@
       "microservices": "Microservices (bases)",
       "electron": "Electron.js",
       "springboot": "Spring Boot",
-      "php": "PHP"
+      "php": "PHP",
+      "laravel": "Laravel",
+      "flutter": "Flutter",
+      "jwt": "JWT"
     },
     "soft": {
       "title": "Autres compétences",
       "items": [
-        "Capacité à travailler sous pression",
-        "Sens de l'écoute et disponibilité",
-        "Réactivité et gestion des priorités",
-        "Rigueur et sens des responsabilités",
-        "Collaboration et esprit d'équipe",
-        "Travail en équipe pluridisciplinaire",
-        "Veille technologique"
+        "Analyse des besoins, conception et modélisation (UML, MERISE)",
+        "Développement, déploiement, maintenance et support applicatif",
+        "Gestion de projet Agile/Scrum",
+        "Coordination avec les équipes métier et techniques",
+        "Rigueur, organisation et veille technologique",
+        "Bonne communication et esprit d'équipe",
+        "Gestion des priorités et autonomie"
       ]
     },
     "transversal": {
       "title": "Compétences techniques transversales",
       "items": [
-        "Support technique et maintenance applicative",
-        "Analyse et conception de plateformes complexes",
-        "Déploiement d'applications",
-        "Sécurité applicative (bonnes pratiques)",
-        "Modélisation de bases de données (MERISE, UML)",
+        "Pratiques DevOps : intégration et déploiement continus (CI/CD)",
+        "Conception et optimisation de bases de données relationnelles",
         "Rédaction de requêtes SQL avancées",
-        "Rédaction de documentation technique (LaTeX)",
-        "Notions cloud : AWS, Google Cloud"
+        "Sécurité applicative et bonnes pratiques de développement sécurisé",
+        "Rédaction de documentation technique (LaTeX, fonctionnelle et technique)",
+        "Services cloud : AWS, Google Cloud Platform",
+        "Déploiement en environnement de test et de production",
+        "Support aux utilisateurs"
       ]
     }
   },
@@ -201,27 +205,33 @@
     "sectionLabel": "Réalisations",
     "sectionTitle": "Projets",
     "sectionTitleEm": "sélectionnés",
-    "featured1Label": "Plateforme web · Full Stack",
-    "featured1Title": "Plateforme de réservation de services",
-    "featured1Desc": "Une plateforme inspirée de ClassPass reliant clients et prestataires — salons de coiffure, instituts de beauté, massages. Gestion des utilisateurs, prise de rendez-vous, disponibilités en temps réel et tableau de bord prestataire.",
-    "featured2Label": "Application desktop · JavaFX",
-    "featured2Title": "Système de gestion d'entrepôt",
-    "featured2Desc": "Application desktop complète pour la gestion d'entrepôt : stocks, entrées/sorties, commandes, rôles utilisateur et transferts inter-entrepôts — interface JavaFX structurée avec MySQL.",
+    "featured1Label": "SaaS · Full Stack",
+    "featured1Title": "Plateforme de commande en ligne restauration",
+    "featured1Desc": "Solution SaaS multi-clients pour la restauration : boutique client, back-office admin et application mobile vendeur. Backend REST sécurisé (Spring Boot, JWT), gestion de stock multi-canal, suivi financier et déploiement cloud (Render, Vercel, PostgreSQL).",
+    "featured2Label": "Plateforme web · Full Stack",
+    "featured2Title": "Plateforme de gestion multi-entrepôts",
+    "featured2Desc": "Application web, mobile et marketplace intégré pour la visibilité en temps réel des activités d'entrepôt (stock, factures, ventes, logs). Fonctionnalités d'IA pour la prévision des ruptures de stock et l'optimisation des inventaires.",
     "github": "GitHub",
     "title": "Projets",
     "personal": {
       "title": "Projets personnels",
       "items": [
         {
+          "name": "Plateforme de commande en ligne — Solution SaaS restauration",
+          "description": "Conception et développement full-stack d'une plateforme de commande en ligne (boutique client, back-office admin, application mobile vendeur) pour les commerces de restauration. Architecture backend REST sécurisée (Spring Boot, Spring Security, JWT) avec gestion des permissions, consommée par un frontend web React et une application mobile Flutter. Modèle de données pour la gestion de stock multi-canal, suivi financier et promotions. Déploiement en production sur Render, Vercel et PostgreSQL. Architecture mono-tenant déployable par instance, avec support Wave et Orange Money.",
+          "technologies": "Spring Boot, Spring Security, JWT, React, Flutter, PostgreSQL, Render, Vercel, Docker",
+          "role": "Conception, développement full-stack et déploiement en production"
+        },
+        {
           "name": "Plateforme de gestion multi-entrepôts",
           "description": "Plateforme digitale composée d'une application web, d'une application mobile et d'un marketplace intégré. La plateforme permet une visibilité en temps réel des activités d'entrepôt (stock, facture, vente, logs, etc...) et intègre des fonctionnalités d'intelligence artificielle pour la prévision des ruptures de stock, l'optimisation des niveaux d'inventaire et la prévision des ventes.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
           "role": "Conception, développement et déploiement"
-        }, {
-          "name": "FlexiFit – Plateforme de réservation de services",
-          "description": "Application web permettant aux clients de réserver des services (coiffure, esthétique, massage, etc.) auprès de prestataires partenaires. Les prestataires disposent d’un tableau de bord pour gérer leurs disponibilités, services, réservations et revenus.",
-          "technologies": "Angular, Spring Boot, MySQL, Git",
-          "role": "Conception de l’architecture, développement frontend et backend, implémentation des fonctionnalités principales et tests"
+        },         {
+          "name": "Flexifit – Plateforme de réservation de services",
+          "description": "Application web permettant aux clients de réserver des services (coiffure, esthétique, massage, etc.) auprès de prestataires partenaires. Les prestataires disposent d'un tableau de bord pour gérer leurs disponibilités, services, réservations et revenus.",
+          "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
+          "role": "Conception, développement et déploiement"
         }
       ]
     },
@@ -251,6 +261,12 @@
   "certifications": {
     "title": "Formations (Cursus)",
     "items": [
+      {
+        "name": "EnglishScore Core skills",
+        "provider": "British Council",
+        "period": "2025",
+        "document": "Score : 442 (B2) upper intermediate"
+      },
       {
         "name": "ETL using python: from MySQL to big query",
         "provider": "Udemy",
@@ -292,11 +308,19 @@
       },
       {
         "language": "Anglais",
-        "level": "Bonne compréhension écrite, communication professionnelle de base"
+        "level": "Bonne compréhension écrite, communication professionnelle de base (B2 — EnglishScore 442)"
+      },
+      {
+        "language": "Wolof",
+        "level": "Langue maternelle"
       }
     ]
   },
   "contact": {
+    "sectionLabel": "Contact",
+    "headingLine1": "Construisons",
+    "headingLine2": "quelque chose de",
+    "headingEm": "grand.",
     "title": "Contact",
     "phone": "Téléphone",
     "email": "Email",
@@ -317,7 +341,7 @@
     "formError": "Une erreur s'est produite. Veuillez réessayer."
   },
   "footer": {
-    "copyright": "© 2025 Blandine Baldé",
+    "copyright": "© 2026 Blandine Baldé",
     "built": "Conçu et réalisé avec soin"
   },
   "toast": {

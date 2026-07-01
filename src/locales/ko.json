@@ -2,7 +2,7 @@
   "header": {
     "name": "Néné Marcelle Blandine BALDE",
     "title": "소프트웨어 및 정보 시스템 엔지니어",
-    "location": "루피스크, 다카르, 세네갈",
+    "location": "다카르, 세네갈",
     "tagline": "웹을 위한 접근성 높은 디지털 경험을 만듭니다."
   },
   "hero": {
@@ -36,7 +36,7 @@
     "p3": "모든 프로젝트에 **엄격함, 자율성, 분석적 사고**를 기여합니다. 의미 있게 기여하고 엔지니어로 성장할 수 있는 역동적인 환경에서 번성합니다.",
     "statYears": "3+",
     "statYearsLabel": "년 경력",
-    "statProjects": "2",
+    "statProjects": "3",
     "statProjectsLabel": "진행 중인 프로젝트",
     "statTech": "7+",
     "statTechLabel": "기술"
@@ -124,7 +124,7 @@
     "formError": "오류가 발생했습니다. 다시 시도해 주세요."
   },
   "footer": {
-    "copyright": "© 2025 Blandine Baldé",
+    "copyright": "© 2026 Blandine Baldé",
     "built": "정밀하게 설계하고 구축함"
   },
   "toast": {

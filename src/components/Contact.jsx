@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './Contact.css'
 
-const EMAIL = 'blandine@gmail.com'
+const EMAIL = 'blandinebalde@gmail.com'
 
 export default function Contact({ onCopyEmail }) {
   const { t } = useTranslation()

@@ -2,7 +2,7 @@
   "header": {
     "name": "Néné Marcelle Blandine BALDE",
     "title": "Ingeniera de Software y Sistemas de Información",
-    "location": "Rufisque, Dakar, Senegal",
+    "location": "Dakar, Senegal",
     "tagline": "Creo experiencias digitales accesibles y pixel-perfect para la web."
   },
   "hero": {
@@ -36,7 +36,7 @@
     "p3": "Aporto **rigor, autonomía y pensamiento analítico** a cada proyecto. Me desarrollo en entornos dinámicos donde puedo contribuir de forma significativa y seguir creciendo como ingeniera.",
     "statYears": "3+",
     "statYearsLabel": "Años de experiencia",
-    "statProjects": "2",
+    "statProjects": "3",
     "statProjectsLabel": "Proyectos activos",
     "statTech": "7+",
     "statTechLabel": "Tecnologías"
@@ -124,7 +124,7 @@
     "formError": "Ha ocurrido un error. Inténtalo de nuevo."
   },
   "footer": {
-    "copyright": "© 2025 Blandine Baldé",
+    "copyright": "© 2026 Blandine Baldé",
     "built": "Diseñado y construido con precisión"
   },
   "toast": {
