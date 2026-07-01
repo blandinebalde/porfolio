@@ -7,7 +7,6 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Experience from './components/Experience'
 import Education from './components/Education'
-import Certifications from './components/Certifications'
 import Languages from './components/Languages'
 import Activities from './components/Activities'
 import Contact from './components/Contact'
@@ -125,7 +124,6 @@ function App() {
       <Projects />
       <Experience />
       <Education />
-      <Certifications />
       <Languages />
       <Activities />
       <Contact onCopyEmail={showCopyToast} />
