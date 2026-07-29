@@ -6,13 +6,20 @@
     "tagline": "I build accessible, pixel-perfect digital experiences for the web."
   },
   "hero": {
-    "eyebrow": "Software Engineer · Spring Boot · Angular · DevOps",
+    "eyebrow": "Software Engineer · Dakar, Senegal",
     "nameFirst": "Blandine",
     "nameLast": "Baldé",
-    "tagline": "I build reliable, well-structured applications — from architectural design to production deployment. Backend precision. Clean frontend. Real impact.",
+    "role": "Software Engineer",
+    "status": "Open to new opportunities",
+    "tagline": "I build scalable applications that solve real-world business problems, from architecture to production deployment.",
     "viewProjects": "View Projects",
     "getInTouch": "Get in touch",
-    "scroll": "scroll"
+    "scroll": "scroll",
+    "architectureLabel": "Production application architecture",
+    "metricYears": "years of experience",
+    "metricSystems": "business systems delivered",
+    "metricPlatforms": "web · mobile · desktop",
+    "metricLifecycle": "software lifecycle ownership"
   },
   "nav": {
     "about": "About",
@@ -20,6 +27,7 @@
     "education": "Education",
     "skills": "Skills",
     "projects": "Projects",
+    "architecture": "Architecture",
     "certifications": "CERTIFICATIONS",
     "contact": "Contact",
     "letsTalk": "Let's talk",
@@ -31,11 +39,43 @@
     "title": "Professional Profile",
     "description": "Software engineer with over 3 years of experience in designing, developing, deploying and maintaining web and desktop applications. Full mastery of the software project lifecycle, with knowledge of DevOps practices (CI/CD). Rigorous, autonomous and quality-oriented, I contribute to reliable and scalable solutions.",
     "sectionLabel": "About",
-    "sectionTitle": "Engineer at",
-    "sectionTitleEm": "every layer",
-    "p1": "I'm **Blandine Baldé**, a software engineer with over 3 years of experience. I cover the full lifecycle — from **design and architecture** to development, deployment and maintenance.",
-    "p2": "I build **reliable and scalable web and desktop applications**, with expertise in **Spring Boot, Angular** and **DevOps (CI/CD)** practices.",
-    "p3": "**Rigorous, autonomous and quality-oriented**, I contribute to concrete solutions in structured environments, collaborating with business and technical teams.",
+    "sectionTitle": "Who",
+    "sectionTitleEm": "am I?",
+    "p1": "I'm a **Software Engineer** passionate about designing scalable backend systems and modern web applications.",
+    "p2": "I work across the complete lifecycle: **analysis, architecture, development, testing, deployment and production support**.",
+    "p3": "My experience includes institutional and business platforms built with **Java, Spring Boot, Angular, Docker and cloud services**.",
+    "principle1": "Pragmatic architecture",
+    "principle2": "Software quality",
+    "principle3": "Business impact",
+    "journeyTitle": "Career path",
+    "journeyLive": "IN PROGRESS",
+    "journey": [
+      {
+        "date": "2022",
+        "title": "Master's Degree",
+        "subtitle": "Software & Information Systems Engineering — ESP"
+      },
+      {
+        "date": "2022",
+        "title": "B&G Digital",
+        "subtitle": "Testing, frontend and CI/CD automation"
+      },
+      {
+        "date": "2023",
+        "title": "Synapsys",
+        "subtitle": "Software Engineer — enterprise platforms"
+      },
+      {
+        "date": "Today",
+        "title": "Software Engineer",
+        "subtitle": "Web, desktop, cloud and DevOps delivery"
+      },
+      {
+        "date": "Open to",
+        "title": "DevOps · AI · Data Engineering",
+        "subtitle": "Technical roles beyond application development"
+      }
+    ],
     "statYears": "3+",
     "statYearsLabel": "Years experience",
     "statProjects": "3",
@@ -137,19 +177,27 @@
     "groups": [
       {
         "title": "Backend",
-        "tags": ["Java", "Spring Boot", "REST API", "JWT", "PHP", "Laravel"]
+        "tags": ["Java", "Spring Boot", "Spring Security", "REST API", "JWT", "Microservices"]
       },
       {
         "title": "Frontend",
         "tags": ["Angular", "React", "TypeScript", "Flutter", "HTML / CSS"]
       },
       {
-        "title": "Data",
-        "tags": ["PostgreSQL", "MySQL", "SQLite", "Data Modeling", "Advanced SQL"]
+        "title": "DevOps",
+        "tags": ["Docker", "Jenkins", "Git", "GitHub", "GitLab", "Linux"]
       },
       {
-        "title": "Practices & Tools",
-        "tags": ["Git / GitHub", "Docker", "Jenkins", "CI / CD", "Agile / Scrum"]
+        "title": "Database",
+        "tags": ["PostgreSQL", "MySQL", "SQLite", "Advanced SQL"]
+      },
+      {
+        "title": "Cloud",
+        "tags": ["AWS EC2", "GCP", "Render", "Vercel", "CI / CD"]
+      },
+      {
+        "title": "Architecture",
+        "tags": ["MVC", "REST", "Microservices", "UML", "MERISE", "SOLID"]
       }
     ],
     "categories": {
@@ -232,6 +280,11 @@
     "featured2Title": "Multi-warehouse Management Platform",
     "featured2Desc": "Web app, mobile app and integrated marketplace for real-time warehouse visibility (stock, invoices, sales, logs). AI features for stock-out forecasting and inventory optimization.",
     "github": "GitHub",
+    "githubProfile": "View GitHub profile",
+    "roleLabel": "Role",
+    "architectureLabel": "Architecture",
+    "productionReady": "production-minded",
+    "systemDesign": "System design",
     "title": "Projects",
     "personal": {
       "title": "Personal Projects",
@@ -240,19 +293,22 @@
           "name": "Online Ordering Platform — Restaurant SaaS Solution",
           "description": "Full-stack design and development of an online ordering platform (customer shop, admin back-office, vendor mobile app) for food businesses. Secure REST backend architecture (Spring Boot, Spring Security, JWT) with fine-grained permissions, consumed by a React web frontend and Flutter mobile app. Data model for multi-channel stock management, financial tracking and promotions. Production deployment on Render, Vercel and PostgreSQL. Mono-tenant architecture deployable per instance, with Wave and Orange Money payment support.",
           "technologies": "Spring Boot, Spring Security, JWT, React, Flutter, PostgreSQL, Render, Vercel, Docker",
-          "role": "Full-stack design, development and production deployment"
+          "role": "Full-stack design, development and production deployment",
+          "architecture": ["React", "Spring Boot", "PostgreSQL", "Docker", "Cloud"]
         },
         {
-          "name": "Multi-warehouse Management Platform",
+          "name": "SmartWarehouse — Multi-warehouse Management",
           "description": "Digital platform consisting of a web application, a mobile application and an integrated marketplace. The platform provides real-time visibility of warehouse activities (stock, invoice, sales, logs, etc.) and integrates artificial intelligence features for stock-out forecasting, inventory level optimization and sales forecasting.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
-          "role": "Design, development and deployment"
+          "role": "Solution design, full-stack development and deployment",
+          "architecture": ["Angular", "Spring Boot", "MySQL", "Docker", "AWS EC2"]
         },
         {
           "name": "Flexifit – Service Booking Platform",
           "description": "Web application allowing clients to book services (hairdressing, beauty, massage, etc.) from partner providers. Providers have a dashboard to manage their availability, services, bookings and revenue.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
-          "role": "Design, development and deployment"
+          "role": "Architecture, development and deployment",
+          "architecture": ["Angular", "Spring Boot", "MySQL", "Flutter", "AWS EC2"]
         }
       ]
     },
@@ -264,10 +320,40 @@
           "type": "Master 2 Final Thesis",
           "description": "Test automation and improvement of software delivery process quality",
           "technologies": "Java, Selenium, Cucumber, Jenkins, JMeter",
-          "role": "Implementation of automated tests (functional, performance, etc.) and a functional CI/CD pipeline"
+          "role": "Implemented automated functional and performance tests with an operational CI/CD pipeline",
+          "architecture": ["Tests", "Jenkins", "JMeter", "CI/CD"]
         }
       ]
     }
+  },
+  "architecture": {
+    "sectionLabel": "Technical design",
+    "sectionTitle": "From architecture to",
+    "sectionTitleEm": "production",
+    "intro": "I design the system and its delivery path as one coherent whole: security, data, deployment and operations.",
+    "systemLabel": "Application architecture",
+    "systemTitle": "Business platform flow",
+    "systemDescription": "An Angular interface consumes a JWT-secured Spring Boot REST API, connected to the data layer and delivered through a containerized cloud environment.",
+    "devopsLabel": "Delivery chain",
+    "devopsTitle": "DevOps pipeline",
+    "devopsDescription": "From commit to deployment: source control, Jenkins automation, Docker image creation and delivery to the target environment."
+  },
+  "engineering": {
+    "sectionLabel": "Continuous growth",
+    "sectionTitle": "Tools, learning &",
+    "sectionTitleEm": "knowledge",
+    "nowTitle": "What I am exploring",
+    "nowDescription": "I am deepening my skills at the intersection of software engineering, cloud and artificial intelligence.",
+    "usesTitle": "My environment",
+    "usesDescription": "The tools I use to design, build, test and deliver applications.",
+    "notesTitle": "Engineering notes",
+    "notesDescription": "An editorial roadmap focused on practical technical experience.",
+    "notes": [
+      "Designing a secure REST API with Spring Boot",
+      "Deploying Angular with Docker",
+      "Implementing Spring Security and JWT"
+    ],
+    "planned": "planned"
   },
   "activities": {
     "title": "Extra-Professional Activities",
@@ -297,7 +383,7 @@
       {
         "name": "LPI Linux Essentials (010-160) Complete Course and Exams",
         "provider": "Online Training",
-        "period": "2023",
+        "period": "2024",
         "document": "Training Certificate"
       },
       {
@@ -309,7 +395,7 @@
       {
         "name": "Complete Agile Scrum Master Certification Training",
         "provider": "Udemy",
-        "period": "2023",
+        "period": "2024",
         "document": "Training Certificate"
       },
       {
@@ -342,6 +428,7 @@
     "headingLine1": "Let's build",
     "headingLine2": "something",
     "headingEm": "great.",
+    "intro": "Looking for an engineer who can understand the business, build the system and support its production delivery? Let's talk.",
     "title": "Contact",
     "phone": "Phone",
     "email": "Email",

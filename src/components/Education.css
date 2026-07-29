@@ -116,3 +116,60 @@
     font-size: 16px;
   }
 }
+
+/* Education and certifications */
+#education {
+  width: 100%;
+  max-width: none;
+  padding-inline: max(24px, calc((100vw - var(--max-width)) / 2));
+  background: var(--bg-2);
+  border-block: 1px solid var(--border);
+}
+
+.education-block {
+  overflow: hidden;
+  padding: 28px;
+  background: rgba(17, 24, 39, 0.6);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.education-block-title {
+  color: #60a5fa;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+}
+
+.education-item,
+.certification-item {
+  padding: 17px 10px;
+  border-bottom-color: var(--border);
+  border-radius: 7px;
+}
+
+.education-item:hover,
+.certification-item:hover {
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.education-degree,
+.certification-name {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.education-school,
+.certification-meta {
+  font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 768px) {
+  #education {
+    padding-inline: 20px;
+  }
+
+  .education-block {
+    padding: 20px;
+  }
+}

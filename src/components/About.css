@@ -123,3 +123,158 @@
     gap: 40px;
   }
 }
+
+/* Concise profile and career timeline */
+#about {
+  background: transparent;
+}
+
+.about-grid {
+  grid-template-columns: minmax(0, 0.9fr) minmax(420px, 1.1fr);
+  gap: 72px;
+  align-items: start;
+  margin-top: 56px;
+}
+
+.about-text {
+  padding-top: 12px;
+}
+
+.about-text p {
+  max-width: 600px;
+  margin-bottom: 18px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.about-text .about-lead {
+  color: #cbd5e1;
+  font-size: 18px;
+  line-height: 1.65;
+}
+
+.about-text p strong {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.about-principles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 30px;
+}
+
+.about-principles span {
+  padding: 8px 11px;
+  color: #bfdbfe;
+  background: var(--blue-dim);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 8px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+}
+
+.journey-card {
+  overflow: hidden;
+  background: rgba(17, 24, 39, 0.76);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+
+.journey-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.journey-live {
+  color: var(--success);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  font-weight: 500;
+}
+
+.journey-list {
+  padding: 18px 20px;
+}
+
+.journey-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 16px 68px 1fr;
+  gap: 12px;
+  min-height: 74px;
+}
+
+.journey-item::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  bottom: -6px;
+  left: 5px;
+  width: 1px;
+  background: #334155;
+}
+
+.journey-item:last-child::before {
+  display: none;
+}
+
+.journey-marker {
+  position: relative;
+  z-index: 1;
+  width: 11px;
+  height: 11px;
+  margin-top: 4px;
+  background: var(--bg-card);
+  border: 2px solid #60a5fa;
+  border-radius: 50%;
+}
+
+.journey-date {
+  padding-top: 1px;
+  color: #93c5fd;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+}
+
+.journey-item strong {
+  display: block;
+  color: #e2e8f0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.journey-item p {
+  margin-top: 3px;
+  color: var(--muted-2);
+  font-size: 11px;
+}
+
+.journey-next .journey-marker {
+  border-style: dashed;
+  border-color: #a78bfa;
+}
+
+.journey-next strong {
+  color: #c4b5fd;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .journey-item {
+    grid-template-columns: 16px 54px 1fr;
+    gap: 9px;
+  }
+}

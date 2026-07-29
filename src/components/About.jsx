@@ -9,35 +9,39 @@ function renderWithStrong(str) {
 
 export default function About() {
   const { t } = useTranslation()
+  const journey = t('about.journey', { returnObjects: true })
+
   return (
     <section id="about">
       <div className="section-label reveal">{t('about.sectionLabel')}</div>
       <h2 className="section-title reveal">{t('about.sectionTitle')} <em>{t('about.sectionTitleEm')}</em></h2>
       <div className="about-grid">
-        <div className="about-photo-wrap reveal">
-          <div className="about-photo-frame">
-            <div className="about-initials">BB</div>
-          </div>
-          <div className="photo-accent" />
-          <div className="photo-accent-2" />
-        </div>
         <div className="about-text reveal">
-          <p>{renderWithStrong(t('about.p1'))}</p>
+          <p className="about-lead">{renderWithStrong(t('about.p1'))}</p>
           <p>{renderWithStrong(t('about.p2'))}</p>
           <p>{renderWithStrong(t('about.p3'))}</p>
-          <div className="about-stats">
-            <div className="stat">
-              <span className="stat-num">{t('about.statYears')}</span>
-              <span className="stat-label">{t('about.statYearsLabel')}</span>
-            </div>
-            <div className="stat">
-              <span className="stat-num">{t('about.statProjects')}</span>
-              <span className="stat-label">{t('about.statProjectsLabel')}</span>
-            </div>
-            <div className="stat">
-              <span className="stat-num">{t('about.statTech')}</span>
-              <span className="stat-label">{t('about.statTechLabel')}</span>
-            </div>
+          <div className="about-principles">
+            <span>{t('about.principle1')}</span>
+            <span>{t('about.principle2')}</span>
+            <span>{t('about.principle3')}</span>
+          </div>
+        </div>
+        <div className="journey-card reveal">
+          <div className="journey-header">
+            <span>{t('about.journeyTitle')}</span>
+            <span className="journey-live">{t('about.journeyLive')}</span>
+          </div>
+          <div className="journey-list">
+            {Array.isArray(journey) && journey.map((item, index) => (
+              <div className={`journey-item ${index === journey.length - 1 ? 'journey-next' : ''}`} key={`${item.date}-${item.title}`}>
+                <div className="journey-marker" />
+                <div className="journey-date">{item.date}</div>
+                <div>
+                  <strong>{item.title}</strong>
+                  <p>{item.subtitle}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

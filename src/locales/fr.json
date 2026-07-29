@@ -6,13 +6,20 @@
     "tagline": "Je développe des expériences digitales accessibles et pixel-perfect pour le web."
   },
   "hero": {
-    "eyebrow": "Ingénieure logicielle · Spring Boot · Angular · DevOps",
+    "eyebrow": "Ingénieure logiciel · Dakar, Sénégal",
     "nameFirst": "Blandine",
     "nameLast": "Baldé",
-    "tagline": "Je conçois des applications fiables et structurées — de l'architecture au déploiement. Précision backend. Frontend soigné. Impact concret.",
+    "role": "Software Engineer",
+    "status": "Disponible pour de nouvelles opportunités",
+    "tagline": "Je conçois des applications évolutives qui répondent à des besoins métier concrets, de l'architecture à la mise en production.",
     "viewProjects": "Voir les projets",
     "getInTouch": "Me contacter",
-    "scroll": "défiler"
+    "scroll": "défiler",
+    "architectureLabel": "Architecture applicative de production",
+    "metricYears": "années d'expérience",
+    "metricSystems": "systèmes métier réalisés",
+    "metricPlatforms": "web · mobile · desktop",
+    "metricLifecycle": "cycle logiciel maîtrisé"
   },
   "nav": {
     "about": "À propos",
@@ -20,6 +27,7 @@
     "education": "Formation",
     "skills": "Compétences",
     "projects": "Projets",
+    "architecture": "Architecture",
     "certifications": "Certifications",
     "contact": "Contact",
     "letsTalk": "Parlons-en",
@@ -31,11 +39,43 @@
     "title": "Profil professionnel",
     "description": "Ingénieure en génie logiciel avec plus de 3 ans d'expérience dans la conception, le développement, le déploiement et la maintenance d'applications web et desktop. Maîtrise de l'ensemble du cycle de vie d'un projet logiciel, avec des connaissances en pratiques DevOps (CI/CD). Rigoureuse, autonome et orientée qualité, je contribue à la réalisation de solutions fiables et évolutives.",
     "sectionLabel": "À propos",
-    "sectionTitle": "Ingénieure à",
-    "sectionTitleEm": "tous les niveaux",
-    "p1": "Je suis **Blandine Baldé**, ingénieure en génie logiciel avec plus de 3 ans d'expérience. Je couvre tout le cycle de vie — de **la conception et l'architecture** au développement, au déploiement et à la maintenance.",
-    "p2": "Je conçois des applications **web et desktop fiables et évolutives**, avec une expertise en **Spring Boot, Angular** et des pratiques **DevOps (CI/CD)**.",
-    "p3": "**Rigoureuse, autonome et orientée qualité**, je contribue à des solutions concrètes dans des environnements structurés, en collaboration avec les équipes métier et techniques.",
+    "sectionTitle": "Qui",
+    "sectionTitleEm": "suis-je ?",
+    "p1": "Je suis **ingénieure logiciel**, passionnée par la conception de systèmes backend évolutifs et d'applications web modernes.",
+    "p2": "J'interviens sur tout le cycle de vie : **analyse, architecture, développement, tests, déploiement et support en production**.",
+    "p3": "Mon expérience couvre des plateformes institutionnelles et métier utilisant **Java, Spring Boot, Angular, Docker et le cloud**.",
+    "principle1": "Architecture pragmatique",
+    "principle2": "Qualité logicielle",
+    "principle3": "Impact métier",
+    "journeyTitle": "Parcours",
+    "journeyLive": "EN COURS",
+    "journey": [
+      {
+        "date": "2022",
+        "title": "Master 2",
+        "subtitle": "Génie logiciel & systèmes d'information — ESP"
+      },
+      {
+        "date": "2022",
+        "title": "B&G Digital",
+        "subtitle": "Tests, frontend et automatisation CI/CD"
+      },
+      {
+        "date": "2023",
+        "title": "Synapsys",
+        "subtitle": "Ingénieure logiciel — plateformes métier"
+      },
+      {
+        "date": "Aujourd'hui",
+        "title": "Software Engineer",
+        "subtitle": "Applications web, desktop, cloud et DevOps"
+      },
+      {
+        "date": "Ouverte à",
+        "title": "DevOps · IA · Data Engineering",
+        "subtitle": "Des rôles techniques au-delà du développement applicatif"
+      }
+    ],
     "statYears": "3+",
     "statYearsLabel": "Années d'expérience",
     "statProjects": "3",
@@ -137,19 +177,27 @@
     "groups": [
       {
         "title": "Backend",
-        "tags": ["Java", "Spring Boot", "API REST", "JWT", "PHP", "Laravel"]
+        "tags": ["Java", "Spring Boot", "Spring Security", "API REST", "JWT", "Microservices"]
       },
       {
         "title": "Frontend",
         "tags": ["Angular", "React", "TypeScript", "Flutter", "HTML / CSS"]
       },
       {
-        "title": "Données",
-        "tags": ["PostgreSQL", "MySQL", "SQLite", "Modélisation de données", "SQL avancé"]
+        "title": "DevOps",
+        "tags": ["Docker", "Jenkins", "Git", "GitHub", "GitLab", "Linux"]
       },
       {
-        "title": "Pratiques & outils",
-        "tags": ["Git / GitHub", "Docker", "Jenkins", "CI / CD", "Agile / Scrum"]
+        "title": "Bases de données",
+        "tags": ["PostgreSQL", "MySQL", "SQLite", "SQL avancé"]
+      },
+      {
+        "title": "Cloud",
+        "tags": ["AWS EC2", "GCP", "Render", "Vercel", "CI / CD"]
+      },
+      {
+        "title": "Architecture",
+        "tags": ["MVC", "REST", "Microservices", "UML", "MERISE", "SOLID"]
       }
     ],
     "categories": {
@@ -232,6 +280,11 @@
     "featured2Title": "Plateforme de gestion multi-entrepôts",
     "featured2Desc": "Application web, mobile et marketplace intégré pour la visibilité en temps réel des activités d'entrepôt (stock, factures, ventes, logs). Fonctionnalités d'IA pour la prévision des ruptures de stock et l'optimisation des inventaires.",
     "github": "GitHub",
+    "githubProfile": "Voir le profil GitHub",
+    "roleLabel": "Rôle",
+    "architectureLabel": "Architecture",
+    "productionReady": "conçu pour la production",
+    "systemDesign": "Conception système",
     "title": "Projets",
     "personal": {
       "title": "Projets personnels",
@@ -240,18 +293,21 @@
           "name": "Plateforme de commande en ligne — Solution SaaS restauration",
           "description": "Conception et développement full-stack d'une plateforme de commande en ligne (boutique client, back-office admin, application mobile vendeur) pour les commerces de restauration. Architecture backend REST sécurisée (Spring Boot, Spring Security, JWT) avec gestion des permissions, consommée par un frontend web React et une application mobile Flutter. Modèle de données pour la gestion de stock multi-canal, suivi financier et promotions. Déploiement en production sur Render, Vercel et PostgreSQL. Architecture mono-tenant déployable par instance, avec support Wave et Orange Money.",
           "technologies": "Spring Boot, Spring Security, JWT, React, Flutter, PostgreSQL, Render, Vercel, Docker",
-          "role": "Conception, développement full-stack et déploiement en production"
+          "role": "Conception, développement full-stack et déploiement en production",
+          "architecture": ["React", "Spring Boot", "PostgreSQL", "Docker", "Cloud"]
         },
         {
-          "name": "Plateforme de gestion multi-entrepôts",
+          "name": "SmartWarehouse — Gestion multi-entrepôts",
           "description": "Plateforme digitale composée d'une application web, d'une application mobile et d'un marketplace intégré. La plateforme permet une visibilité en temps réel des activités d'entrepôt (stock, facture, vente, logs, etc...) et intègre des fonctionnalités d'intelligence artificielle pour la prévision des ruptures de stock, l'optimisation des niveaux d'inventaire et la prévision des ventes.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
-          "role": "Conception, développement et déploiement"
+          "role": "Conception de la solution, développement full-stack et déploiement",
+          "architecture": ["Angular", "Spring Boot", "MySQL", "Docker", "AWS EC2"]
         }, {
           "name": "Flexifit – Plateforme de réservation de services",
           "description": "Application web permettant aux clients de réserver des services (coiffure, esthétique, massage, etc.) auprès de prestataires partenaires. Les prestataires disposent d'un tableau de bord pour gérer leurs disponibilités, services, réservations et revenus.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
-          "role": "Conception, développement et déploiement"
+          "role": "Architecture, développement et déploiement",
+          "architecture": ["Angular", "Spring Boot", "MySQL", "Flutter", "AWS EC2"]
         }
       ]
     },
@@ -263,10 +319,40 @@
           "type": "Mémoire de fin d'études – Master 2",
           "description": "Automatisation des tests et amélioration de la qualité du processus de livraison logicielle",
           "technologies": "Java, Selenium, Cucumber, Jenkins, JMeter",
-          "role": "Mise en place de tests automatisés (fonctionnels, performances, etc..) et d'un pipeline CI/CD fonctionnel"
+          "role": "Mise en place de tests fonctionnels et de performance automatisés, avec un pipeline CI/CD opérationnel",
+          "architecture": ["Tests", "Jenkins", "JMeter", "CI/CD"]
         }
       ]
     }
+  },
+  "architecture": {
+    "sectionLabel": "Conception technique",
+    "sectionTitle": "De l'architecture à la",
+    "sectionTitleEm": "production",
+    "intro": "Je conçois le système et son chemin de livraison comme un ensemble cohérent : sécurité, données, déploiement et exploitation.",
+    "systemLabel": "Architecture applicative",
+    "systemTitle": "Flux d'une plateforme métier",
+    "systemDescription": "Une interface Angular consomme une API REST Spring Boot sécurisée par JWT, connectée aux données et livrée dans un environnement conteneurisé sur le cloud.",
+    "devopsLabel": "Chaîne de livraison",
+    "devopsTitle": "Pipeline DevOps",
+    "devopsDescription": "Du commit au déploiement : gestion du code source, automatisation Jenkins, création d'images Docker et livraison vers l'environnement cible."
+  },
+  "engineering": {
+    "sectionLabel": "En progression",
+    "sectionTitle": "Outils, apprentissage &",
+    "sectionTitleEm": "partage",
+    "nowTitle": "Ce que j'approfondis",
+    "nowDescription": "Je développe actuellement mes compétences à l'intersection du logiciel, du cloud et de l'intelligence artificielle.",
+    "usesTitle": "Mon environnement",
+    "usesDescription": "Les outils que j'utilise pour concevoir, développer, tester et livrer des applications.",
+    "notesTitle": "Notes d'ingénierie",
+    "notesDescription": "Une feuille de route éditoriale centrée sur des retours d'expérience techniques concrets.",
+    "notes": [
+      "Concevoir une API REST sécurisée avec Spring Boot",
+      "Déployer Angular avec Docker",
+      "Mettre en place Spring Security et JWT"
+    ],
+    "planned": "prévu"
   },
   "activities": {
     "title": "Activités extra-professionnelles",
@@ -341,6 +427,7 @@
     "headingLine1": "Construisons",
     "headingLine2": "quelque chose de",
     "headingEm": "grand.",
+    "intro": "Vous recherchez une ingénieure capable de comprendre le métier, construire le système et accompagner sa mise en production ? Échangeons.",
     "title": "Contact",
     "phone": "Téléphone",
     "email": "Email",

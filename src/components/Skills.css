@@ -137,3 +137,93 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Technical capability cards */
+#skills {
+  border-top: 1px solid var(--border);
+}
+
+.skills-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-top: 56px;
+}
+
+.skill-group {
+  min-height: 278px;
+  padding: 24px;
+  background: rgba(17, 24, 39, 0.72);
+  border-radius: 14px;
+  transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+}
+
+.skill-group::before {
+  height: 1px;
+  background: linear-gradient(90deg, var(--blue), transparent);
+}
+
+.skill-group:hover {
+  transform: translateY(-4px);
+  background: rgba(23, 32, 51, 0.86);
+}
+
+.skill-group-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.skill-group-header > span {
+  color: var(--muted-2);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+}
+
+.skill-group-title {
+  margin: 0;
+  color: #93c5fd;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+}
+
+.skill-tag {
+  padding: 7px 0;
+  color: #cbd5e1;
+  font-size: 11px;
+}
+
+.skill-tag::before {
+  background: #475569;
+}
+
+.skills-extra {
+  gap: 14px;
+}
+
+.skills-extra-block {
+  padding: 28px;
+  background: rgba(17, 24, 39, 0.46);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.skills-extra-title {
+  color: #93c5fd;
+}
+
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-group {
+    min-height: auto;
+  }
+}

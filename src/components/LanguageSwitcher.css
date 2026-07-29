@@ -10,12 +10,12 @@
   background: transparent;
   color: var(--muted);
   border-radius: 2px;
-  cursor: none;
+  cursor: pointer;
   font-weight: 500;
   font-size: 11px;
   letter-spacing: 0.05em;
   transition: color 0.2s, background 0.2s;
-  font-family: 'Sora', sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .language-switcher button:hover {
@@ -24,7 +24,9 @@
 }
 
 .language-switcher button.active {
-  color: var(--amber);
+  color: #93c5fd;
+  background: var(--blue-dim);
+  border-radius: 6px;
 }
 
 @media (max-width: 768px) {

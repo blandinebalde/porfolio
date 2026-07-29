@@ -3,11 +3,13 @@ import { useTranslation } from 'react-i18next'
 import LanguageSwitcher from './LanguageSwitcher'
 import './Navigation.css'
 
+const BASE_URL = import.meta.env.BASE_URL
+
 const CV_CONFIG = {
-  en: { url: '/cv_blandine_balde_en.pdf', filename: 'cv_blandine_balde_en.pdf' },
-  fr: { url: '/cv_blandine_balde_fr.pdf', filename: 'cv_blandine_balde_fr.pdf' },
-  es: { url: '/cv_blandine_balde_en.pdf', filename: 'cv_blandine_balde_en.pdf' },
-  ko: { url: '/cv_blandine_balde_en.pdf', filename: 'cv_blandine_balde_en.pdf' },
+  en: { url: `${BASE_URL}cv_blandine_balde_en.pdf`, filename: 'cv_blandine_balde_en.pdf' },
+  fr: { url: `${BASE_URL}cv_blandine_balde_fr.pdf`, filename: 'cv_blandine_balde_fr.pdf' },
+  es: { url: `${BASE_URL}cv_blandine_balde_en.pdf`, filename: 'cv_blandine_balde_en.pdf' },
+  ko: { url: `${BASE_URL}cv_blandine_balde_en.pdf`, filename: 'cv_blandine_balde_en.pdf' },
 }
 
 export default function Navigation({ scrolled }) {
@@ -29,11 +31,15 @@ export default function Navigation({ scrolled }) {
 
   return (
     <nav id="navbar" className={scrolled ? 'scrolled' : ''}>
-      <a href="#hero" className="nav-logo" onClick={closeMenu}>B<span>.</span>Baldé</a>
+      <a href="#hero" className="nav-logo" onClick={closeMenu}>
+        <span className="nav-logo-mark">BB</span>
+        <span className="nav-logo-text">Blandine Baldé</span>
+      </a>
       <ul className="nav-links">
         <li><a href="#about">{t('nav.about')}</a></li>
         <li><a href="#skills">{t('nav.skills')}</a></li>
         <li><a href="#projects">{t('nav.projects')}</a></li>
+        <li><a href="#architecture">{t('nav.architecture')}</a></li>
         <li><a href="#experience">{t('nav.experience')}</a></li>
         <li><a href="#education">{t('nav.education')}</a></li>
       </ul>
@@ -69,6 +75,7 @@ export default function Navigation({ scrolled }) {
           <li><a href="#about" onClick={closeMenu}>{t('nav.about')}</a></li>
           <li><a href="#skills" onClick={closeMenu}>{t('nav.skills')}</a></li>
           <li><a href="#projects" onClick={closeMenu}>{t('nav.projects')}</a></li>
+          <li><a href="#architecture" onClick={closeMenu}>{t('nav.architecture')}</a></li>
           <li><a href="#experience" onClick={closeMenu}>{t('nav.experience')}</a></li>
           <li><a href="#education" onClick={closeMenu}>{t('nav.education')}</a></li>
         </ul>

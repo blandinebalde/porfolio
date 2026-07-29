@@ -18,19 +18,19 @@ export default function Contact({ onCopyEmail }) {
       <div className="section-label reveal">{t('contact.sectionLabel')}</div>
       <div className="contact-inner reveal">
         <h2 className="contact-heading">{t('contact.headingLine1')}<br />{t('contact.headingLine2')} <em>{t('contact.headingEm')}</em></h2>
+        <p className="contact-intro">{t('contact.intro')}</p>
         <div className="contact-info">
           <div className="contact-row">
             <span className="contact-row-label">{t('contact.email')}</span>
             <a href="#" className="contact-row-value" onClick={handleCopy}>{EMAIL}</a>
           </div>
-        
           <div className="contact-row">
             <span className="contact-row-label">LinkedIn</span>
             <a href="https://linkedin.com/in/blandine-balde-00b24a1a3" target="_blank" rel="noopener noreferrer" className="contact-row-value">linkedin.com/in/blandine-balde</a>
           </div>
           <div className="contact-row">
-            <span className="contact-row-label">Portfolio</span>
-            <a href="https://blandinebalde.github.io/porfolio/" target="_blank" rel="noopener noreferrer" className="contact-row-value">blandinebalde.github.io/portfolio</a>
+            <span className="contact-row-label">GitHub</span>
+            <a href="https://github.com/blandinebalde" target="_blank" rel="noopener noreferrer" className="contact-row-value">github.com/blandinebalde</a>
           </div>
         </div>
         <div className="contact-socials">

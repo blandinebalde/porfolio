@@ -70,3 +70,50 @@
     flex-direction: column;
   }
 }
+
+#activities {
+  padding-top: 36px;
+  padding-bottom: 72px;
+}
+
+#activities .section-title {
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.activities-list {
+  gap: 12px;
+}
+
+.activity-item {
+  padding: 18px;
+  cursor: default;
+  background: rgba(17, 24, 39, 0.5);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.activity-item:hover {
+  background: rgba(23, 32, 51, 0.7);
+  border-color: rgba(96, 165, 250, 0.28);
+  transform: translateY(-2px);
+}
+
+.activity-name {
+  color: var(--white);
+  font-size: 13px;
+}
+
+.activity-type {
+  color: #93c5fd;
+  background: var(--blue-dim);
+  border-color: rgba(59, 130, 246, 0.2);
+}
+
+.activity-description {
+  color: var(--muted);
+  font-size: 11px;
+}

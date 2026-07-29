@@ -6,13 +6,20 @@
     "tagline": "웹을 위한 접근성 높은 디지털 경험을 만듭니다."
   },
   "hero": {
-    "eyebrow": "소프트웨어 엔지니어 · Spring Boot · Angular · DevOps",
+    "eyebrow": "소프트웨어 엔지니어 · 다카르, 세네갈",
     "nameFirst": "Blandine",
     "nameLast": "Baldé",
-    "tagline": "아키텍처 설계부터 프로덕션 배포까지 — 안정적이고 체계적인 애플리케이션을 구축합니다. 백엔드 정확성. 깔끔한 프론트엔드. 실제 임팩트.",
+    "role": "소프트웨어 엔지니어",
+    "status": "새로운 기회를 찾고 있습니다",
+    "tagline": "아키텍처부터 프로덕션 배포까지, 실제 비즈니스 문제를 해결하는 확장 가능한 애플리케이션을 구축합니다.",
     "viewProjects": "프로젝트 보기",
     "getInTouch": "연락하기",
-    "scroll": "스크롤"
+    "scroll": "스크롤",
+    "architectureLabel": "프로덕션 애플리케이션 아키텍처",
+    "metricYears": "년 경력",
+    "metricSystems": "구축한 비즈니스 시스템",
+    "metricPlatforms": "웹 · 모바일 · 데스크톱",
+    "metricLifecycle": "전체 소프트웨어 수명주기"
   },
   "nav": {
     "about": "소개",
@@ -20,6 +27,7 @@
     "education": "학력",
     "skills": "기술",
     "projects": "프로젝트",
+    "architecture": "아키텍처",
     "certifications": "자격증",
     "contact": "연락처",
     "letsTalk": "연락하기",
@@ -31,11 +39,23 @@
     "title": "전문 프로필",
     "description": "웹 및 데스크톱 애플리케이션의 설계, 개발, 배포 및 유지보수에 3년 이상의 경험을 보유한 소프트웨어 엔지니어입니다. 소프트웨어 프로젝트 전체 라이프사이클을 숙련하고 있으며 DevOps(CI/CD) 실무에 대한 지식을 갖추고 있습니다. 꼼꼼하고 자율적이며 품질 지향적으로, 안정적이고 확장 가능한 솔루션에 기여합니다.",
     "sectionLabel": "소개",
-    "sectionTitle": "모든 레이어에서",
-    "sectionTitleEm": "일하는 엔지니어",
-    "p1": "저는 **Blandine Baldé**입니다. 3년 이상의 경험을 가진 소프트웨어 엔지니어로, **설계와 아키텍처**부터 개발, 배포, 유지보수까지 전체 라이프사이클을 담당합니다.",
-    "p2": "**안정적이고 확장 가능한 웹 및 데스크톱 애플리케이션**을 구축하며, **Spring Boot, Angular** 및 **DevOps(CI/CD)** 실무에 전문성을 갖추고 있습니다.",
-    "p3": "**꼼꼼하고 자율적이며 품질 지향적**으로, 구조화된 환경에서 비즈니스 및 기술 팀과 협력하여 실질적인 솔루션에 기여합니다.",
+    "sectionTitle": "저는",
+    "sectionTitleEm": "누구인가요?",
+    "p1": "저는 확장 가능한 백엔드 시스템과 현대적인 웹 애플리케이션 설계에 열정을 가진 **소프트웨어 엔지니어**입니다.",
+    "p2": "**분석, 아키텍처, 개발, 테스트, 배포 및 프로덕션 지원**까지 전체 수명주기를 담당합니다.",
+    "p3": "**Java, Spring Boot, Angular, Docker 및 클라우드**를 활용한 공공 및 비즈니스 플랫폼 경험을 보유하고 있습니다.",
+    "principle1": "실용적인 아키텍처",
+    "principle2": "소프트웨어 품질",
+    "principle3": "비즈니스 가치",
+    "journeyTitle": "경력 경로",
+    "journeyLive": "진행 중",
+    "journey": [
+      {"date": "2022", "title": "석사 학위", "subtitle": "소프트웨어 및 정보 시스템 공학 — ESP"},
+      {"date": "2022", "title": "B&G Digital", "subtitle": "테스트, 프론트엔드 및 CI/CD 자동화"},
+      {"date": "2023", "title": "Synapsys", "subtitle": "소프트웨어 엔지니어 — 비즈니스 플랫폼"},
+      {"date": "현재", "title": "소프트웨어 엔지니어", "subtitle": "웹, 데스크톱, 클라우드 및 DevOps"},
+      {"date": "관심 분야", "title": "DevOps · AI · 데이터 엔지니어링", "subtitle": "애플리케이션 개발을 넘어선 기술 직무"}
+    ],
     "statYears": "3+",
     "statYearsLabel": "년 경력",
     "statProjects": "3",
@@ -137,19 +157,27 @@
     "groups": [
       {
         "title": "백엔드",
-        "tags": ["Java", "Spring Boot", "REST API", "JWT", "PHP", "Laravel"]
+        "tags": ["Java", "Spring Boot", "Spring Security", "REST API", "JWT", "Microservices"]
       },
       {
         "title": "프론트엔드",
         "tags": ["Angular", "React", "TypeScript", "Flutter", "HTML / CSS"]
       },
       {
-        "title": "데이터",
-        "tags": ["PostgreSQL", "MySQL", "SQLite", "데이터 모델링", "고급 SQL"]
+        "title": "DevOps",
+        "tags": ["Docker", "Jenkins", "Git", "GitHub", "GitLab", "Linux"]
       },
       {
-        "title": "방법론 & 도구",
-        "tags": ["Git / GitHub", "Docker", "Jenkins", "CI / CD", "Agile / Scrum"]
+        "title": "데이터베이스",
+        "tags": ["PostgreSQL", "MySQL", "SQLite", "고급 SQL"]
+      },
+      {
+        "title": "클라우드",
+        "tags": ["AWS EC2", "GCP", "Render", "Vercel", "CI / CD"]
+      },
+      {
+        "title": "아키텍처",
+        "tags": ["MVC", "REST", "Microservices", "UML", "MERISE", "SOLID"]
       }
     ],
     "categories": {
@@ -232,6 +260,11 @@
     "featured2Title": "다중 창고 관리 플랫폼",
     "featured2Desc": "실시간 창고 가시성(재고, 송장, 판매, 로그)을 위한 웹 앱, 모바일 앱 및 통합 마켓플레이스. 재고 부족 예측 및 재고 최적화를 위한 AI 기능.",
     "github": "GitHub",
+    "githubProfile": "GitHub 프로필 보기",
+    "roleLabel": "역할",
+    "architectureLabel": "아키텍처",
+    "productionReady": "프로덕션 중심 설계",
+    "systemDesign": "시스템 설계",
     "title": "프로젝트",
     "personal": {
       "title": "개인 프로젝트",
@@ -243,7 +276,7 @@
           "role": "풀스택 설계, 개발 및 프로덕션 배포"
         },
         {
-          "name": "다중 창고 관리 플랫폼",
+          "name": "SmartWarehouse — 다중 창고 관리",
           "description": "웹 애플리케이션, 모바일 애플리케이션 및 통합 마켓플레이스로 구성된 디지털 플랫폼. 창고 활동(재고, 송장, 판매, 로그 등)의 실시간 가시성을 제공하며, 재고 부족 예측, 재고 수준 최적화 및 판매 예측을 위한 인공지능 기능을 통합합니다.",
           "technologies": "Spring Boot, Angular, MySQL, Flutter, AWS EC2, Docker",
           "role": "설계, 개발 및 배포"
@@ -268,6 +301,35 @@
         }
       ]
     }
+  },
+  "architecture": {
+    "sectionLabel": "기술 설계",
+    "sectionTitle": "아키텍처에서",
+    "sectionTitleEm": "프로덕션까지",
+    "intro": "보안, 데이터, 배포 및 운영을 하나의 일관된 시스템과 전달 과정으로 설계합니다.",
+    "systemLabel": "애플리케이션 아키텍처",
+    "systemTitle": "비즈니스 플랫폼 흐름",
+    "systemDescription": "Angular 인터페이스가 JWT로 보호된 Spring Boot REST API를 사용하고, 데이터 계층과 연결되어 컨테이너 기반 클라우드 환경에 배포됩니다.",
+    "devopsLabel": "배포 과정",
+    "devopsTitle": "DevOps 파이프라인",
+    "devopsDescription": "커밋부터 배포까지: 소스 관리, Jenkins 자동화, Docker 이미지 생성 및 대상 환경으로 전달합니다."
+  },
+  "engineering": {
+    "sectionLabel": "지속적인 성장",
+    "sectionTitle": "도구, 학습 &",
+    "sectionTitleEm": "지식 공유",
+    "nowTitle": "현재 탐구하는 분야",
+    "nowDescription": "소프트웨어 엔지니어링, 클라우드 및 인공지능의 교차 영역에서 역량을 발전시키고 있습니다.",
+    "usesTitle": "개발 환경",
+    "usesDescription": "애플리케이션을 설계, 개발, 테스트 및 배포할 때 사용하는 도구입니다.",
+    "notesTitle": "엔지니어링 노트",
+    "notesDescription": "실용적인 기술 경험을 중심으로 한 콘텐츠 로드맵입니다.",
+    "notes": [
+      "Spring Boot로 안전한 REST API 설계하기",
+      "Docker로 Angular 배포하기",
+      "Spring Security와 JWT 구현하기"
+    ],
+    "planned": "예정"
   },
   "activities": {
     "title": "대외 활동",
@@ -342,6 +404,7 @@
     "headingLine1": "함께",
     "headingLine2": "멋진 것을",
     "headingEm": "만들어요.",
+    "intro": "비즈니스를 이해하고 시스템을 구축하며 프로덕션 배포까지 지원할 엔지니어를 찾고 계신가요? 함께 이야기해 보세요.",
     "title": "연락처",
     "phone": "전화",
     "email": "이메일",

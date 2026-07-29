@@ -3,10 +3,12 @@ import i18n from 'i18next'
 import './Skills.css'
 
 const DEFAULT_GROUPS = [
-  { title: 'Backend', tags: ['Java', 'Spring Boot', 'REST API', 'JWT', 'PHP', 'Laravel'] },
-  { title: 'Frontend', tags: ['Angular', 'React', 'TypeScript', 'Flutter', 'HTML / CSS'] },
-  { title: 'Data', tags: ['PostgreSQL', 'MySQL', 'SQLite', 'Data Modeling', 'Advanced SQL'] },
-  { title: 'Practices & Tools', tags: ['Git / GitHub', 'Docker', 'Jenkins', 'CI / CD', 'Agile / Scrum'] },
+  { title: 'Backend', tags: ['Java', 'Spring Boot', 'Spring Security', 'REST API', 'JWT', 'Microservices'] },
+  { title: 'Frontend', tags: ['Angular', 'TypeScript', 'React', 'Flutter', 'HTML / CSS'] },
+  { title: 'DevOps', tags: ['Docker', 'Jenkins', 'Git', 'GitHub', 'GitLab', 'Linux'] },
+  { title: 'Database', tags: ['PostgreSQL', 'MySQL', 'SQLite', 'Advanced SQL'] },
+  { title: 'Cloud', tags: ['AWS EC2', 'GCP', 'Render', 'Vercel', 'CI / CD'] },
+  { title: 'Architecture', tags: ['MVC', 'REST', 'Microservices', 'UML', 'MERISE', 'SOLID'] },
 ]
 
 function getSkillGroups(t) {
@@ -37,9 +39,12 @@ export default function Skills() {
         {t('skills.sectionTitle')} <em>{t('skills.sectionTitleEm')}</em> {t('skills.sectionTitleSuffix')}
       </h2>
       <div className="skills-grid reveal">
-        {groups.map((group) => (
+        {groups.map((group, index) => (
           <div key={group.title} className="skill-group">
-            <div className="skill-group-title">{group.title}</div>
+            <div className="skill-group-header">
+              <span>{String(index + 1).padStart(2, '0')}</span>
+              <div className="skill-group-title">{group.title}</div>
+            </div>
             <div className="skill-tags">
               {group.tags.map((tag) => (
                 <div key={tag} className="skill-tag">{tag}</div>

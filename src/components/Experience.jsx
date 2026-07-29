@@ -26,14 +26,21 @@ export default function Experience() {
         {items.map((item, index) => (
           <div key={index} className="timeline-item reveal">
             <div className="timeline-dot" />
-            <div className="timeline-date">{item.period}</div>
-            <div className="timeline-role">{item.title}</div>
-            <div className="timeline-company">{item.company}</div>
-            <ul className="timeline-points">
+            <div className="timeline-header">
+              <div>
+                <div className="timeline-company">{item.company}</div>
+                <div className="timeline-role">{item.title}</div>
+              </div>
+              <div className="timeline-date">{item.period}</div>
+            </div>
+            <div className="timeline-points">
               {item.missions?.map((mission, j) => (
-                <li key={j}>{mission}</li>
+                <article key={j} className="experience-card">
+                  <span>{String(j + 1).padStart(2, '0')}</span>
+                  <p>{mission}</p>
+                </article>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
       </div>

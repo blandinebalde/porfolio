@@ -14,48 +14,11 @@ function getProjectItems(t, key) {
 
 const GITHUB_URL = 'https://github.com/blandinebalde'
 
-// Optional visual placeholders per project type (index)
-const projectVisuals = [
-  (
-    <>
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>POST</span> /api/orders<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>GET</span>  /api/menu<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>JWT</span>  → authorized<br />
-      <span style={{ color: 'rgba(255,140,0,0.5)' }}>──────────────────</span><br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>stack:  </span>Spring Boot, React<br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>deploy: </span>Render, Vercel
-    </>
-  ),
-  (
-    <>
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>Stock</span>      → real-time<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>Inbound</span>    → 14 today<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>Outbound</span>   → 9 today<br />
-      <span style={{ color: 'rgba(255,140,0,0.5)' }}>──────────────────</span><br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>stack:   </span>Spring Boot, Flutter<br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>db:      </span>MySQL
-    </>
-  ),
-  (
-    <>
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>POST</span> /api/bookings<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>GET</span>  /api/availability<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>GET</span>  /api/providers<br />
-      <span style={{ color: 'rgba(255,140,0,0.5)' }}>──────────────────</span><br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>status: </span><span style={{ color: '#4CAF8A' }}>200 OK</span><br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>db:     </span>MySQL
-    </>
-  ),
-  (
-    <>
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>Jenkins</span>  → pipeline<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>Selenium</span> → UI tests<br />
-      <span style={{ color: 'rgba(255,140,0,0.8)' }}>Cucumber</span> → BDD<br />
-      <span style={{ color: 'rgba(255,140,0,0.5)' }}>──────────────────</span><br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>JMeter</span>  → performance<br />
-      <span style={{ color: 'rgba(238,240,248,0.4)' }}>result: </span>CI/CD OK
-    </>
-  ),
+const defaultArchitectures = [
+  ['React', 'Spring Boot', 'PostgreSQL', 'Docker', 'Cloud'],
+  ['Angular', 'Spring Boot', 'MySQL', 'Docker', 'AWS EC2'],
+  ['Angular', 'Spring Boot', 'MySQL', 'Flutter', 'AWS EC2'],
+  ['Tests', 'Jenkins', 'Docker', 'CI/CD'],
 ]
 
 export default function Projects() {
@@ -85,16 +48,23 @@ export default function Projects() {
               ? academicTitle
               : personalTitle
           const tags = project.technologies ? project.technologies.split(',').map((t) => t.trim()).filter(Boolean) : []
-          const visual = projectVisuals[i % projectVisuals.length]
+          const architecture = Array.isArray(project.architecture)
+            ? project.architecture
+            : defaultArchitectures[i % defaultArchitectures.length]
           return (
             <div key={i} className="project-card reveal">
-              <div className="project-number">{String(i + 1).padStart(2, '0')}</div>
               <div className="project-info">
-                <div className="project-label">{label}</div>
+                <div className="project-topline">
+                  <div className="project-label">{label}</div>
+                  <span className="project-number">{String(i + 1).padStart(2, '0')}</span>
+                </div>
                 <h3 className="project-title">{project.name}</h3>
                 <p className="project-desc">{project.description}</p>
                 {project.role && (
-                  <p className="project-role">{project.role}</p>
+                  <div className="project-result">
+                    <span>{t('projects.roleLabel')}</span>
+                    <p>{project.role}</p>
+                  </div>
                 )}
                 <div className="project-tags">
                   {tags.map((tag) => (
@@ -103,13 +73,28 @@ export default function Projects() {
                 </div>
                 <div className="project-links">
                   <a href={GITHUB_URL} className="project-link" target="_blank" rel="noopener noreferrer">
-                    {t('projects.github')}
+                    {t('projects.githubProfile')}
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7v10" /></svg>
                   </a>
                 </div>
               </div>
               <div className="project-visual">
-                <div className="project-visual-inner">{visual}</div>
+                <div className="project-visual-header">
+                  <span>{t('projects.architectureLabel')}</span>
+                  <span className="project-status"><i />{t('projects.productionReady')}</span>
+                </div>
+                <div className="project-architecture">
+                  {architecture.map((node, nodeIndex) => (
+                    <div className="architecture-step" key={`${node}-${nodeIndex}`}>
+                      <div>{node}</div>
+                      {nodeIndex < architecture.length - 1 && <span>↓</span>}
+                    </div>
+                  ))}
+                </div>
+                <div className="project-visual-footer">
+                  <span>{t('projects.systemDesign')}</span>
+                  <span>{architecture.length} layers</span>
+                </div>
               </div>
             </div>
           )

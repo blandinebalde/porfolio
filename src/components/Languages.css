@@ -37,3 +37,47 @@
     gap: 1rem;
   }
 }
+
+#languages {
+  padding-top: 72px;
+  padding-bottom: 36px;
+}
+
+#languages .section-title {
+  margin-bottom: 26px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.languages-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.language-item {
+  padding: 18px;
+  cursor: default;
+  background: rgba(17, 24, 39, 0.5);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+.language-name {
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.language-level {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+@media (max-width: 768px) {
+  .languages-list {
+    grid-template-columns: 1fr;
+  }
+}

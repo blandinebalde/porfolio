@@ -5,6 +5,8 @@ import translationFR from './locales/fr.json'
 import translationES from './locales/es.json'
 import translationKO from './locales/ko.json'
 
+const savedLanguage = window.localStorage.getItem('portfolio-language')
+
 i18n
   .use(initReactI18next)
   .init({
@@ -14,7 +16,7 @@ i18n
       es: { translation: translationES },
       ko: { translation: translationKO }
     },
-    lng: 'en',
+    lng: savedLanguage || 'en',
     fallbackLng: 'en',
     interpolation: {
       escapeValue: false

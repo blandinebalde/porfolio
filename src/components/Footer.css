@@ -1,7 +1,9 @@
 /* ─── FOOTER ────────────────────────────────────── */
 footer {
   border-top: 1px solid var(--border);
-  padding: 32px 60px;
+  width: min(100%, var(--max-width));
+  margin-inline: auto;
+  padding: 32px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,5 +17,6 @@ footer {
     flex-direction: column;
     gap: 12px;
     text-align: center;
+    padding-inline: 20px;
   }
 }

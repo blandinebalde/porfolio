@@ -88,3 +88,123 @@
   color: var(--amber);
   font-size: 12px;
 }
+
+/* Experience timeline with delivery cards */
+#experience {
+  border-top: 0;
+}
+
+.timeline {
+  margin-top: 56px;
+}
+
+.timeline::before {
+  left: 7px;
+  background: linear-gradient(var(--blue), #334155 55%, transparent);
+}
+
+.timeline-item {
+  padding-left: 48px;
+  padding-bottom: 72px;
+}
+
+.timeline-dot {
+  left: 1px;
+  top: 7px;
+  width: 13px;
+  height: 13px;
+  background: var(--bg);
+  border-color: #60a5fa;
+  box-shadow: 0 0 0 5px rgba(59, 130, 246, 0.08);
+}
+
+.timeline-item:hover .timeline-dot {
+  background: var(--blue);
+}
+
+.timeline-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.timeline-date {
+  flex-shrink: 0;
+  margin: 2px 0 0;
+  padding: 7px 10px;
+  color: #93c5fd;
+  background: var(--blue-dim);
+  border: 1px solid rgba(59, 130, 246, 0.16);
+  border-radius: 7px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+  letter-spacing: 0.05em;
+}
+
+.timeline-company {
+  margin-bottom: 5px;
+  color: #60a5fa;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.timeline-role {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(22px, 3vw, 30px);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.timeline-points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.experience-card {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  padding: 16px;
+  background: rgba(17, 24, 39, 0.54);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.experience-card:hover {
+  background: rgba(23, 32, 51, 0.72);
+  border-color: rgba(96, 165, 250, 0.28);
+}
+
+.experience-card > span {
+  color: #475569;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 9px;
+}
+
+.experience-card p {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.65;
+}
+
+@media (max-width: 760px) {
+  .timeline-item {
+    padding-left: 34px;
+  }
+
+  .timeline-header {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .timeline-points {
+    grid-template-columns: 1fr;
+  }
+}

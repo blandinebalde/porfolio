@@ -1,14 +1,16 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import Navigation from './components/Navigation'
 import Hero from './components/Hero'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import ArchitectureShowcase from './components/ArchitectureShowcase'
 import Experience from './components/Experience'
 import Education from './components/Education'
 import Languages from './components/Languages'
 import Activities from './components/Activities'
+import EngineeringProfile from './components/EngineeringProfile'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
@@ -17,33 +19,6 @@ function App() {
   const { t } = useTranslation()
   const [navScrolled, setNavScrolled] = useState(false)
   const [toastShow, setToastShow] = useState(false)
-  const cursorRef = useRef({ mx: 0, my: 0, rx: 0, ry: 0 })
-
-  // Custom cursor
-  useEffect(() => {
-    const cursor = document.getElementById('cursor')
-    const ring = document.getElementById('cursor-ring')
-    if (!cursor || !ring) return
-
-    const onMove = (e) => {
-      cursorRef.current.mx = e.clientX
-      cursorRef.current.my = e.clientY
-    }
-
-    function anim() {
-      const { mx, my, rx, ry } = cursorRef.current
-      cursor.style.left = mx + 'px'
-      cursor.style.top = my + 'px'
-      cursorRef.current.rx += (mx - cursorRef.current.rx) * 0.12
-      cursorRef.current.ry += (my - cursorRef.current.ry) * 0.12
-      ring.style.left = cursorRef.current.rx + 'px'
-      ring.style.top = cursorRef.current.ry + 'px'
-      requestAnimationFrame(anim)
-    }
-    requestAnimationFrame(anim)
-    window.addEventListener('mousemove', onMove)
-    return () => window.removeEventListener('mousemove', onMove)
-  }, [])
 
   // Navbar scroll
   useEffect(() => {
@@ -113,8 +88,6 @@ function App() {
 
   return (
     <div className="app">
-      <div id="cursor" />
-      <div id="cursor-ring" />
       <div id="toast" className={toastShow ? 'show' : ''} aria-live="polite">{t('toast.copied')}</div>
 
       <Navigation scrolled={navScrolled} />
@@ -122,10 +95,12 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <ArchitectureShowcase />
       <Experience />
       <Education />
       <Languages />
       <Activities />
+      <EngineeringProfile />
       <Contact onCopyEmail={showCopyToast} />
       <Footer />
     </div>
